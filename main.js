@@ -3,6 +3,7 @@
     "xx-xx-2019 Emil: Piger er nogle girakkere.",
     "xx-xx-2019 Leo: vi har nok den mest andmindelige klasse på årgangen",
     "{ML}Malthe: lå lå lå lålålålålålå vi har fransk... vi skal mobbe Alia!",
+    "xx-xx-2020 Edina: Hvor mange søskende har du asger? Asger m: Halvanden",
     "29-04-2019 Alfred: ... jeg er meget dybt koncentret i at skrive på et whiteboard.",
     "30-04-2019 Emil: Tænk hvis puden slår igen.",
     "30-04-2019 Alfred: Kan jeg gå igennem døre?",
@@ -82,6 +83,7 @@
     "08-11-19 Vitus: Vi skal købe flere børn, så vi kan avle dem",
     "08-11-2019 Benjamin: It's not rape, it's surprice sex",
     "15-11-2019 Mikkel: Yakub, skal jeg seriøst konfiskere din sko?",
+    "19-11-19 Mikkel: Nej nu blev den lidt for lang, så gør vi det igen",
     "19-11-2019 Mikkel: Yakup, tror du også at den skal derind?",
     "{ML}Yakub: Nej jeg ved ikke hvor den skal ind!",
     "26-11-2019 Vitus: i har nu adgang til slaver",
@@ -112,6 +114,7 @@
     "13-12-2019 Vitus: Man laver altså ikke highfive efter et mord.",
     "20-12-2019 Alfred: og så havde adrian selvfølgelig tøj på, i forhold til mig",
     "20-12-2019 Alfred: Elverfyr, tag tøjet af og skaf dig en sele",
+    "20-12-2019 Alfred: På det tidspunkt havde han bukserne halvt på.",
     "03-01-2020 Thor fra adrians klasse: Adrian gulerøderne har speedos på!",
     "14-01 2020 Alfred: Der er bryllup ude til life.",
     "{ML}Aske: Er der bryllup?",
@@ -125,7 +128,7 @@
     "20-02-2020 Benjamin: Nårh ja, den her chili brænder jo bare!",
     "21-02-2020 Aske og Rune: HoP inD i BilEn!",
     "24-03-2020 Adrian: Jeg så noget klamt i min kugle!",
-    "24-03-2020 Benjamin: Nej lars, du skal ikke spise ledningen!"
+    "24-03-2020 Benjamin: Nej lars, du skal ikke spise ledningen!",
 ]
 window.onload = function() {
     for (let i = 0; i < citater.length; i++) {

@@ -80,10 +80,11 @@
     "11-10-2019 Alfred: Du skal heller ikke inhalere en orm, bare fordi den er der!",
     "25-10-2019 Benjamin: Jeg gider ikke gå igennem puberteten igen.",
     "28-10-2019 Emil: Jeg har ikke tænkt mig at tave pave snakken lige nu.",
-    "08-11-19 Vitus: Vi skal købe flere børn, så vi kan avle dem",
+    "08-11-2019 Vitus: Vi skal købe flere børn, så vi kan avle dem",
+    "08-11-2019 Emil: Man rør ikke bare med en tohåndshammer",
     "08-11-2019 Benjamin: It's not rape, it's surprice sex",
     "15-11-2019 Mikkel: Yakub, skal jeg seriøst konfiskere din sko?",
-    "19-11-19 Mikkel: Nej nu blev den lidt for lang, så gør vi det igen",
+    "19-11-2019 Mikkel: Nej nu blev den lidt for lang, så gør vi det igen",
     "19-11-2019 Mikkel: Yakup, tror du også at den skal derind?",
     "{ML}Yakub: Nej jeg ved ikke hvor den skal ind!",
     "26-11-2019 Vitus: i har nu adgang til slaver",
@@ -94,7 +95,7 @@
     "{ML}Vitus: Det sagde hun også igår",
     "02-12-2019 En fra M3: how do you say \"its not rape if im swag\" in danish?",
     "03-12 2019 Asger M: Lederen af bortløbene slaver skal knippes 3 gange og derefter hænges",
-    "04-12-19 Alfred: Mor og morder minder om hinanden",
+    "04-12-2019 Alfred: Mor og morder minder om hinanden",
     "{ML}Ferdinand: Ja, hvis de har fået en abort",
     "05-12-2019 Luca: Jeg kunne ikke se dig, du er helt sort",
     "06-12-2019 Vitus: Alfred, er mine tænder skarpe?",
@@ -130,7 +131,7 @@
     "24-03-2020 Adrian: Jeg så noget klamt i min kugle!",
     "24-03-2020 Benjamin: Nej lars, du skal ikke spise ledningen!",
 ]
-window.onload = function() {
+window.onload = function () {
     for (let i = 0; i < citater.length; i++) {
         var str = citater[i];
         var res = str.replace("{ML}", "");

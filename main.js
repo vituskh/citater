@@ -83,6 +83,8 @@
     "08-11-2019 Vitus: Vi skal købe flere børn, så vi kan avle dem",
     "08-11-2019 Emil: Man rør ikke bare med en tohåndshammer",
     "08-11-2019 Benjamin: It's not rape, it's surprice sex",
+    "08-11-19 Adrian: Tak for barnet",
+    "{ML}Alfred: Det sagde hun også igår",
     "15-11-2019 Mikkel: Yakub, skal jeg seriøst konfiskere din sko?",
     "19-11-2019 Mikkel: Nej nu blev den lidt for lang, så gør vi det igen",
     "19-11-2019 Mikkel: Yakup, tror du også at den skal derind?",

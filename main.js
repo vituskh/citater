@@ -132,6 +132,8 @@
     "21-02-2020 Aske og Rune: HoP inD i BilEn!",
     "24-03-2020 Adrian: Jeg så noget klamt i min kugle!",
     "24-03-2020 Benjamin: Nej lars, du skal ikke spise ledningen!",
+    "23-05-2020 Rune: Jeg kan svinge en yoyo op i dilleren hvis jeg får noget for det.",
+    "07-07-2020 Rune: Vi bliver jagtet af odense fodboldklub!",
 ]
 window.onload = function () {
     for (let i = 0; i < citater.length; i++) {

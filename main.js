@@ -100,6 +100,7 @@
     "04-12-2019 Alfred: Mor og morder minder om hinanden",
     "{ML}Ferdinand: Ja, hvis de har fået en abort",
     "05-12-2019 Luca: Jeg kunne ikke se dig, du er helt sort",
+    "06-12-2019 Aske: Sex er en full action",
     "06-12-2019 Vitus: Alfred, er mine tænder skarpe?",
     "{ML}Alfred: Jeg kender svaret, men vil ikke sige det",
     "11-12-2019 Mikkel: Elton, skal jeg seriøst konfiskere din soya?",
@@ -133,7 +134,9 @@
     "24-03-2020 Adrian: Jeg så noget klamt i min kugle!",
     "24-03-2020 Benjamin: Nej lars, du skal ikke spise ledningen!",
     "23-05-2020 Rune: Jeg kan svinge en yoyo op i dilleren hvis jeg får noget for det.",
-    "07-07-2020 Rune: Vi bliver jagtet af odense fodboldklub!",
+    "06-07-2020 Rune: Vi bliver jagtet af odense fodboldklub!",
+    "06-07-2020 Rune: Kom her DF! Nu skal du dø!",
+    "06-07-2020 Adrian: De sidder bare alle sammen og gangbanger en sten",
 ]
 window.onload = function () {
     for (let i = 0; i < citater.length; i++) {

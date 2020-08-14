@@ -1,4 +1,8 @@
 ﻿var citater = [
+    "Ygritte ??-??-???? (game of thrones): I'm a free woman.",
+    "{ML}Jon snow: You're a free woman?",
+    "{ML}Ygritte: I might be your prisoner, but I'm a free woman!",
+    "{ML}Jon snow: If you're my prisoner, you're not a free woman! That's what prisoner means!",
     "xx-xx-20xx Vitus: Det er ikke en kappe, det er en tabard!",
     "xx-xx-2019 Emil: Piger er nogle girakkere.",
     "xx-xx-2019 Leo: vi har nok den mest andmindelige klasse på årgangen",
@@ -130,13 +134,19 @@
     "07-02-2020 Aske: Ja vi må gerne slå kvinder ihjel, det er ligemeget",
     "07-02-2020 Alfred: Hvis det er kvinder kan det jo ikke være mænd",
     "20-02-2020 Benjamin: Nårh ja, den her chili brænder jo bare!",
+    "Edina: Hvor mange søskende har du asger?",
+    "{ML}Asger m: Halvanden",
     "21-02-2020 Aske og Rune: HoP inD i BilEn!",
     "24-03-2020 Adrian: Jeg så noget klamt i min kugle!",
     "24-03-2020 Benjamin: Nej lars, du skal ikke spise ledningen!",
+    "Rune til en kvindelige NPC d. 13/5 2020: Skal du have hvid maling for så skaffer jeg det",
     "23-05-2020 Rune: Jeg kan svinge en yoyo op i dilleren hvis jeg får noget for det.",
     "06-07-2020 Rune: Vi bliver jagtet af odense fodboldklub!",
     "06-07-2020 Rune: Kom her DF! Nu skal du dø!",
     "06-07-2020 Adrian: De sidder bare alle sammen og gangbanger en sten",
+    "14-08-2020 Adrian: Jeg er ikke alkoholiker, jeg er en dværg",
+    "14-08-2020 Vitus: Men, jeg kan ikke købe sjov med taknemmelighed",
+    "14-08-2020 Aske: Så gå væk, din store lækre bacon"
 ]
 window.onload = function () {
     for (let i = 0; i < citater.length; i++) {

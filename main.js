@@ -1,11 +1,11 @@
 ﻿var citater = [
-    "Ygritte ??-??-???? (game of thrones): I'm a free woman.",
+    "Ygritte xx-xx-xxxx (game of thrones): I'm a free woman.",
     "{ML}Jon snow: You're a free woman?",
     "{ML}Ygritte: I might be your prisoner, but I'm a free woman!",
     "{ML}Jon snow: If you're my prisoner, you're not a free woman! That's what prisoner means!",
     "xx-xx-20xx Vitus: Det er ikke en kappe, det er en tabard!",
     "xx-xx-2019 Emil: Piger er nogle girakkere.",
-    "xx-xx-2019 Leo: vi har nok den mest andmindelige klasse på årgangen",
+    "xx-xx-2019 Leo: vi har nok den mest almindelige klasse på årgangen",
     "{ML}Malthe: lå lå lå lålålålålålå vi har fransk... vi skal mobbe Alia!",
     "xx-xx-2020 Edina: Hvor mange søskende har du asger? Asger m: Halvanden",
     "29-04-2019 Alfred: ... jeg er meget dybt koncentret i at skrive på et whiteboard.",
@@ -22,7 +22,6 @@
     "07-08-2019 Rune: Hvis du vil hårdt nok, så kan du det med alle instrumenter",
     "{ML}Benjamin: Hvad med en didgeridoo?",
     "07-08-2019 Emil: I er godt klar over, at jo flere i spiser, jo hurtigere er den tom",
-    "{ML}Benjamin: Whaao, er det sandt?",
     "07-08-2019 Benjamin: Den her popcorn smager lidt af gummi",
     "{ML}Alfred: Det er fordi at den er gummi agtig.",
     "{ML}Rune: Det sagde hun også igår.",
@@ -32,7 +31,7 @@
     "12-08-2019 Adrian: Nimar er en jerk.",
     "12-08-2019 Emil: Er det dig der hedder stark?",
     "12-08-2019 Adrian: Hvis man tager alting ud af kontekst så tror man at vi er sådan nogen maniacs",
-    "12-08-2019 Adrian: Yoda siger: \"Hvis at du vil have min anananas, så skal du give mig 30 kroner\"",
+    "12-08-2019 Adrian: Yoda siger: \"Hvis at du vil have min ananas, så skal du give mig 30 kroner\"",
     "12-08-2019 Alfred: Jeg siger at du er blå!",
     "{ML}Adrian: Jeg siger at du er grøn!",
     "12-08-2019 Adrian: Jeg vidste ikke at fisgur var inden for sex.",
@@ -40,7 +39,7 @@
     "12-08-2019 Adrian: Nej jeg er ikke fisgur!",
     "12-08-2019 Vitus: Men vi vil have en millitærbase!",
     "13-08-2019 Alfred: Piger er så fucking udspekulerede.",
-    "{ML}Alfred: Hun er ligesom Hermaine Granger!",
+    "{ML}Alfred: Hun er ligesom Hermione Granger!",
     "13-08-2019 Adrian: Nej det må du ikke Yoda!",
     "{ML}Adrian: Du må ikke sælge mig ananas!",
     "13-08-2019 Laura: Du er så fucking provokerende",
@@ -107,6 +106,7 @@
     "06-12-2019 Aske: Sex er en full action",
     "06-12-2019 Vitus: Alfred, er mine tænder skarpe?",
     "{ML}Alfred: Jeg kender svaret, men vil ikke sige det",
+    "10-12-2019 Aske: Okay, sig til din far at vi har givet dig opgaven som husslave fordi at du er kvinde",
     "11-12-2019 Mikkel: Elton, skal jeg seriøst konfiskere din soya?",
     "12-12-2019 Laura: Shit en rapunsel wannabe",
     "12-12-2019 Alfred: Vitus jeg bider i den",
@@ -146,7 +146,8 @@
     "06-07-2020 Adrian: De sidder bare alle sammen og gangbanger en sten",
     "14-08-2020 Adrian: Jeg er ikke alkoholiker, jeg er en dværg",
     "14-08-2020 Vitus: Men, jeg kan ikke købe sjov med taknemmelighed",
-    "14-08-2020 Aske: Så gå væk, din store lækre bacon"
+    "14-08-2020 Aske: Så gå væk, din store lækre bacon",
+
 ]
 window.onload = function () {
     for (let i = 0; i < citater.length; i++) {

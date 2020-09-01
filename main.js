@@ -94,11 +94,13 @@
     "{ML}Yakub: Nej jeg ved ikke hvor den skal ind!",
     "26-11-2019 Vitus: i har nu adgang til slaver",
     "Laura 26-11-2019: Ej hvor er du voldsom du siger piksvin",
-    "Benjamin: Ja, til mine venner. Det må man godt gøre.",
+    "{ML}Benjamin: Ja, til mine venner. Det må man godt gøre.",
     "29-11-2019 Alfred: Bare rolig, alt er under kontrol, jeg er ved at blive fanget",
     "02-12-2019 Benjamin: Han gemmer den mellem benene!",
     "{ML}Vitus: Det sagde hun også igår",
+    "19-11-19 Mikkel: Nej nu blev den lidt for lang, så gør vi det igen",
     "02-12-2019 En fra M3: how do you say \"its not rape if im swag\" in danish?",
+    "01-09-2020 Willas fra Adrians klasse: Hygge er drugs",
     "03-12 2019 Asger M: Lederen af bortløbene slaver skal knippes 3 gange og derefter hænges",
     "04-12-2019 Alfred: Mor og morder minder om hinanden",
     "{ML}Ferdinand: Ja, hvis de har fået en abort",
@@ -106,6 +108,7 @@
     "06-12-2019 Aske: Sex er en full action",
     "06-12-2019 Vitus: Alfred, er mine tænder skarpe?",
     "{ML}Alfred: Jeg kender svaret, men vil ikke sige det",
+    "07-12-2019 Ferdinand: Så det du siger er at, Maria er blevet phykisk voldtaget af gud?",
     "10-12-2019 Aske: Okay, sig til din far at vi har givet dig opgaven som husslave fordi at du er kvinde",
     "11-12-2019 Mikkel: Elton, skal jeg seriøst konfiskere din soya?",
     "12-12-2019 Laura: Shit en rapunsel wannabe",
@@ -137,6 +140,9 @@
     "Edina: Hvor mange søskende har du asger?",
     "{ML}Asger m: Halvanden",
     "21-02-2020 Aske og Rune: HoP inD i BilEn!",
+    "21-02-2020 Alfred: Jeg har fået fri, jeg nægter at vide ting!",
+    "03-03-2020 Asger M: Ulven er kønsforvirret",
+    "07-03-2020 Sigurd: Jeg er ikke deep, jeg er en fucking pige!",
     "24-03-2020 Adrian: Jeg så noget klamt i min kugle!",
     "24-03-2020 Benjamin: Nej lars, du skal ikke spise ledningen!",
     "Rune til en kvindelige NPC d. 13/5 2020: Skal du have hvid maling for så skaffer jeg det",
@@ -147,6 +153,7 @@
     "14-08-2020 Adrian: Jeg er ikke alkoholiker, jeg er en dværg",
     "14-08-2020 Vitus: Men, jeg kan ikke købe sjov med taknemmelighed",
     "14-08-2020 Aske: Så gå væk, din store lækre bacon",
+    "28-08-2020 Marta: Lad os gøre alfred til en mand"
 
 ]
 window.onload = function () {

@@ -158,12 +158,13 @@
 ]
 window.onload = function () {
     for (let i = 0; i < citater.length; i++) {
-        var str = citater[i];
-        var res = str.replace("{ML}", "");
-        if (res == str) {
-            document.getElementById("citater").innerHTML += "<br>" + "<p>" + "\"" + str + "\"" + "</p>";
+        var src = citater[i].split(": ");
+        var person = src[0].replace("{ML}", "")
+        var citat = src[1];
+        if (person == src[0]) {
+            document.getElementById("citater").innerHTML += "<br>" + "<p>" + person + ": \"" + citat + "\"" + "</p>";
         } else {
-            document.getElementById("citater").innerHTML += "<p>" + "\"" + res + "\"" + "</p>";
+            document.getElementById("citater").innerHTML += "<p>" + person + ": \"" + citat + "\"" + "</p>";
         }
 
     }

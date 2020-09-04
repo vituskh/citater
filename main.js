@@ -153,7 +153,12 @@
     "14-08-2020 Adrian: Jeg er ikke alkoholiker, jeg er en dværg",
     "14-08-2020 Vitus: Men, jeg kan ikke købe sjov med taknemmelighed",
     "14-08-2020 Aske: Så gå væk, din store lækre bacon",
-    "28-08-2020 Marta: Lad os gøre alfred til en mand"
+    "28-08-2020 Marta: Lad os gøre alfred til en mand",
+    "03-09-2020 Rehan: Giv mig min stabber, jeg skal stabbe",
+    "03-09-20 En pige fra adrians klasse: Dem der har fået 10 skal dø",
+    "04-09-2020 Yakup: Sæt dig ned din fucking træstamme! Gå tilbage til randers regnskov med dig!",
+    "04-09-2020 Alfreds biologilærer: Jaja, hver weekend så sætter jeg mig på bænkene, drikker nogle øl og graver nogle huler. Don't do drugs, kids!",
+
 
 ]
 window.onload = function () {

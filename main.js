@@ -1,13 +1,11 @@
 ﻿var citater = [
-    "Ygritte xx-xx-xxxx (game of thrones): I'm a free woman.",
-    "{ML}Jon snow: You're a free woman?",
-    "{ML}Ygritte: I might be your prisoner, but I'm a free woman!",
-    "{ML}Jon snow: If you're my prisoner, you're not a free woman! That's what prisoner means!",
+    "xx-xx-xxxx Random person fra rollespil: Hvorfor kyssede du hende ikke?",
+    "{ML} Alfred: Fordi vi var til rollespil, og det ville være meget underligt.",
+    "{ML} Random person: Det er dårligt rollespil!",
     "xx-xx-20xx Vitus: Det er ikke en kappe, det er en tabard!",
     "xx-xx-2019 Emil: Piger er nogle girakkere.",
     "xx-xx-2019 Leo: vi har nok den mest almindelige klasse på årgangen",
     "{ML}Malthe: lå lå lå lålålålålålå vi har fransk... vi skal mobbe Alia!",
-    "xx-xx-2020 Edina: Hvor mange søskende har du asger? Asger m: Halvanden",
     "29-04-2019 Alfred: ... jeg er meget dybt koncentret i at skrive på et whiteboard.",
     "30-04-2019 Emil: Tænk hvis puden slår igen.",
     "30-04-2019 Alfred: Kan jeg gå igennem døre?",
@@ -88,17 +86,16 @@
     "08-11-2019 Benjamin: It's not rape, it's surprice sex",
     "08-11-19 Adrian: Tak for barnet",
     "{ML}Alfred: Det sagde hun også igår",
-    "15-11-2019 Mikkel: Yakub, skal jeg seriøst konfiskere din sko?",
+    "15-11-2019 Mikkel: Yakup, skal jeg seriøst konfiskere din sko?",
     "19-11-2019 Mikkel: Nej nu blev den lidt for lang, så gør vi det igen",
     "19-11-2019 Mikkel: Yakup, tror du også at den skal derind?",
-    "{ML}Yakub: Nej jeg ved ikke hvor den skal ind!",
+    "{ML}Yakup: Nej jeg ved ikke hvor den skal ind!",
     "26-11-2019 Vitus: i har nu adgang til slaver",
     "Laura 26-11-2019: Ej hvor er du voldsom du siger piksvin",
     "{ML}Benjamin: Ja, til mine venner. Det må man godt gøre.",
     "29-11-2019 Alfred: Bare rolig, alt er under kontrol, jeg er ved at blive fanget",
     "02-12-2019 Benjamin: Han gemmer den mellem benene!",
     "{ML}Vitus: Det sagde hun også igår",
-    "19-11-19 Mikkel: Nej nu blev den lidt for lang, så gør vi det igen",
     "02-12-2019 En fra M3: how do you say \"its not rape if im swag\" in danish?",
     "01-09-2020 Willas fra Adrians klasse: Hygge er drugs",
     "03-12 2019 Asger M: Lederen af bortløbene slaver skal knippes 3 gange og derefter hænges",
@@ -141,11 +138,14 @@
     "{ML}Asger m: Halvanden",
     "21-02-2020 Aske og Rune: HoP inD i BilEn!",
     "21-02-2020 Alfred: Jeg har fået fri, jeg nægter at vide ting!",
+    "02-03-2020 Alfred: skrub ud af mit hus din klamme ting",
     "03-03-2020 Asger M: Ulven er kønsforvirret",
     "07-03-2020 Sigurd: Jeg er ikke deep, jeg er en fucking pige!",
+    "23-05-2020 Alfreds 7-årige kusine: Ja, vi skal da have noget mere øl!",
     "24-03-2020 Adrian: Jeg så noget klamt i min kugle!",
     "24-03-2020 Benjamin: Nej lars, du skal ikke spise ledningen!",
-    "Rune til en kvindelige NPC d. 13/5 2020: Skal du have hvid maling for så skaffer jeg det",
+    "13-05-2020 Rune: Skal du have hvid maling for så skaffer jeg det",
+    "11-06-2020 Benjamin: Min hjerne er ikke klog! Folk tror min hjerne er klog, men det er den ikke!",
     "23-05-2020 Rune: Jeg kan svinge en yoyo op i dilleren hvis jeg får noget for det.",
     "06-07-2020 Rune: Vi bliver jagtet af odense fodboldklub!",
     "06-07-2020 Rune: Kom her DF! Nu skal du dø!",
@@ -153,25 +153,32 @@
     "14-08-2020 Adrian: Jeg er ikke alkoholiker, jeg er en dværg",
     "14-08-2020 Vitus: Men, jeg kan ikke købe sjov med taknemmelighed",
     "14-08-2020 Aske: Så gå væk, din store lækre bacon",
+    "15-08-2020 Rune: Så der bajer til far mand",
     "28-08-2020 Marta: Lad os gøre alfred til en mand",
+    "28-08-2020 David: Madicken, du skal ikke sidde og bide. I må ikke savle på hinanden under coronatiden.",
+    "31-08-2020 Rehan: Du er den eneste der har tysk her! Din hitler fan!",
     "03-09-2020 Rehan: Giv mig min stabber, jeg skal stabbe",
     "03-09-20 En pige fra adrians klasse: Dem der har fået 10 skal dø",
     "04-09-2020 Yakup: Sæt dig ned din fucking træstamme! Gå tilbage til randers regnskov med dig!",
     "04-09-2020 Alfreds biologilærer: Jaja, hver weekend så sætter jeg mig på bænkene, drikker nogle øl og graver nogle huler. Don't do drugs, kids!",
-
+    "04-09-2020 Aske: hvem har størst chance for at have sex i en bil?",
+    "{ML}Aske: Noah, det er de nigarianske metoder",
+    "17-09-2020 Aske: jeg bliver nød til at vide hvordan man simper!",
 
 ]
 window.onload = function () {
+    var x = 0
     for (let i = 0; i < citater.length; i++) {
-        var src = citater[i].split(": ");
+        var src = citater[i].replace(/\: /,'¤').split('¤');
         var person = src[0].replace("{ML}", "")
         var citat = src[1];
         if (person == src[0]) {
             document.getElementById("citater").innerHTML += "<br>" + "<p>" + person + ": \"" + citat + "\"" + "</p>";
+            x++
         } else {
             document.getElementById("citater").innerHTML += "<p>" + person + ": \"" + citat + "\"" + "</p>";
         }
 
     }
-
+    document.getElementById("forskelligecitater").textContent = x
 }

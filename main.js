@@ -45,7 +45,7 @@
     "13-08-2019 Tristan: Det forstår jeg intet af.",
     "{ML}Emil: Banan 39 46 Jørgen",
     "13-08-2019 Alfred: Fuck dig, hele din famillie, alt hvad du står for og alt hvad du har opnået hele dit liv!",
-    "14-08-2019 Edina (vores matlærer): Nej, 1 / 5 er ikke 1.",
+    "14-08-2019 Edina (vores matlærer): Nej, 1 divideret med 5 er ikke 1.",
     "13-08-2019 Carla (en klassekammerat): Lad være, jeg har selv stjålet den!",
     "13-08-2019 Martin (vores dansklærer): Jeg bruger ikke meget af min hjernekapacitet på at tænke over, hvad dumme mennesker gør og ikke gør.",
     "14-08-2019 Adrian: Vidste du at djorka er et synonym for min far er bedre end din far?",
@@ -81,7 +81,7 @@
     "11-10-2019 Alfred: Du skal heller ikke inhalere en orm, bare fordi den er der!",
     "25-10-2019 Benjamin: Jeg gider ikke gå igennem puberteten igen.",
     "28-10-2019 Emil: Jeg har ikke tænkt mig at tave pave snakken lige nu.",
-    "08-11-2019 Vitus: Vi skal købe flere børn, så vi kan avle dem",
+    "08-11-2019 Vitus: Vi skal købe flere børn, så vi kan avle dem",
     "08-11-2019 Emil: Man rør ikke bare med en tohåndshammer",
     "08-11-2019 Benjamin: It's not rape, it's surprice sex",
     "08-11-19 Adrian: Tak for barnet",
@@ -175,9 +175,11 @@ window.onload = function () {
         if (person == src[0]) {
             document.getElementById("citater").innerHTML += "<br>" + "<p>" + person + ": \"" + citat + "\"" + "</p>";
             x++
+            if(("<br>" + "<p>" + person + ": \"" + citat + "\"" + "</p>").indexOf("undefined")) {console.log({src,citat,person})}
         } else {
             document.getElementById("citater").innerHTML += "<p>" + person + ": \"" + citat + "\"" + "</p>";
         }
+        
 
     }
     document.getElementById("forskelligecitater").textContent = x

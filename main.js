@@ -163,7 +163,8 @@
     "04-09-2020 Alfreds biologilærer: Jaja, hver weekend så sætter jeg mig på bænkene, drikker nogle øl og graver nogle huler. Don't do drugs, kids!",
     "04-09-2020 Aske: hvem har størst chance for at have sex i en bil?",
     "{ML}Aske: Noah, det er de nigarianske metoder",
-    "17-09-2020 Aske: jeg bliver nød til at vide hvordan man simper!",
+    "07-09-2020 Aske: jeg bliver nød til at vide hvordan man simper!",
+    "16-09-2020 Marta: Det er politisk ukorrekt at sige spåkone"
 
 ]
 window.onload = function () {

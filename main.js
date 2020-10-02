@@ -164,7 +164,22 @@
     "04-09-2020 Aske: hvem har størst chance for at have sex i en bil?",
     "{ML}Aske: Noah, det er de nigarianske metoder",
     "07-09-2020 Aske: jeg bliver nød til at vide hvordan man simper!",
-    "16-09-2020 Marta: Det er politisk ukorrekt at sige spåkone"
+    "16-09-2020 Marta: Det er politisk ukorrekt at sige spåkone",
+    "02-10-2020 Aske: Prøv at høre, vi vil ikke have en alliance med Nordkorea og DF!",
+    "02-10-2020 Aske: Hvis det her ikke havde været et børnevenligt rollespil, ville jeg have en pisse god ide til hvordan vi kunne lokke folk til byen",
+    "{ML}Emil: Hvornår har det her nogensinde været et børnevenligt rollespil",
+    "02-10-2020 Alfred: Jeg synes at Åndernes herre skal få uendeligt kost og logi i vores slot",
+    "{ML}Vitus: I vores <i>horehus</i>, ikke vores slot.",
+    "02-10-2020 Alfred: Det eneste vi mangler er bare en fucking sump!",
+    "02-10-2020 Aske: Skider vi i en <i>tornebusk</i>",
+    "02-10-2020 Aske: Nogle grundlæg et horehus, jeg gider ikke, det er uærefuldt.",
+    "{ML}Alfred: Jeg gør det!",
+    "02-10-2020 Alfred: Hvad hedder hun?",
+    "{ML}Aske: Jeg ved det ikke!",
+    "{ML}Rune: Hun hedder Caroline!",
+    "02-10-2020 Aske: Nå, I er her?",
+    "{ML}Rune: Velkommen til mit land!",
+
 
 ]
 window.onload = function () {

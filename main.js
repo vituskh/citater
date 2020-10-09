@@ -186,8 +186,10 @@
     "{ML}Rune: Hun hedder Caroline!",
     "02-10-2020 Aske: Nå, I er her?",
     "{ML}Rune: Velkommen til mit land!",
-
-
+    "09-10-2020 Aske: Er det her en sædbank eller et bryllup?",
+    "09-10-2020 Rune: De blev begge to smidt som børn.",
+    "{ML}Emil: Hvad mener du?",
+    "{ML}Rune: Ja, altså deres forældre spillede stangtennis med dem.",
 ]
 window.onload = function () {
     var x = 0

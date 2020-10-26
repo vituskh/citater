@@ -203,9 +203,9 @@
     "{ML}Aske: Rune er ikke en pik han er en pære!",
     "25-10-2020 Aske: NEJNEJ, hvorfor bygger den ikke?",
     "25-10-2020 Vitus: Så! Nu knuldrer de!",
-    "Aske: Bliver de liderlige nu?",
-    "Vitus: Ja!",
-    "Aske: Fuck hvor fedt!",
+    "{ML}Aske: Bliver de liderlige nu?",
+    "{ML}Vitus: Ja!",
+    "{ML}Aske: Fuck hvor fedt!",
 ]
 window.onload = function () {
     var x = 0

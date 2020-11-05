@@ -168,6 +168,7 @@
     "16-09-2020 Marta: Det er politisk ukorrekt at sige spåkone",
     "18-09 2020 Jens (en lærer i skolen): Den er teknisk set skolens stol...",
     "{ML}Yakup: Nej jeg har selv sat navneskilt på!!",
+    "18-09 2020 Jens (lærer i skolen): Og nej du må selvfølgelig ikke tage andre folks stole Yakup",
     "25-09-2020 Emil: Og så føles den varm og pelset",
     "{ML}Alfred: Det sagde hun også i går!",
     "27-09-2020 Alfred og Aske: (overfalder benjamin)",
@@ -188,6 +189,7 @@
     "02-10-2020 Aske: Nå, I er her?",
     "{ML}Rune: Velkommen til mit land!",
     "05-10-2020 Marcus: Giv mig nogle piger!",
+    "06-10-2020 Rune: jeg læser fucking sovjetisk propaganda",
     "06-10-2020 Christian: hun sagde aldrig stop.",
     "{ML}Benjamin: det sagde han også i går",
     "09-10-2020 Alfred: Kys hende for Flarns navn!",
@@ -206,6 +208,9 @@
     "{ML}Aske: Bliver de liderlige nu?",
     "{ML}Vitus: Ja!",
     "{ML}Aske: Fuck hvor fedt!",
+    "03-11-2020 Alfred: aehhh Aske... hvis jeg havde været en pige havde jeg fuldstændigt gennemsnavet dig...",
+    "{ML}Aske: Hvorfor det?",
+    "{ML}Alfred: jeg er ved at dø af tørst, og jeg skal bruge noget positivt i mit liv!",
 ]
 window.onload = function () {
     var x = 0

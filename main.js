@@ -211,6 +211,7 @@
     "03-11-2020 Alfred: aehhh Aske... hvis jeg havde været en pige havde jeg fuldstændigt gennemsnavet dig...",
     "{ML}Aske: Hvorfor det?",
     "{ML}Alfred: jeg er ved at dø af tørst, og jeg skal bruge noget positivt i mit liv!",
+    "06-11-2020 Rune: Emiiiil! Adrian styrker fællesskabet",
 ]
 window.onload = function () {
     var x = 0

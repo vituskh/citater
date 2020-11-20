@@ -80,7 +80,7 @@
     "11-10-2019 Alfred: Du skal heller ikke inhalere en orm, bare fordi den er der!",
     "25-10-2019 Benjamin: Jeg gider ikke gå igennem puberteten igen.",
     "28-10-2019 Emil: Jeg har ikke tænkt mig at tave pave snakken lige nu.",
-    "07-11-2019 Emil (klassekammerat) din filipinske fisk!",
+    "07-11-2019 Emil (klassekammerat): Din filipinske fisk!",
     "08-11-2019 Vitus: Vi skal købe flere børn, så vi kan avle dem",
     "08-11-2019 Emil: Man rør ikke bare med en tohåndshammer",
     "08-11-2019 Benjamin: It's not rape, it's surprice sex",
@@ -217,7 +217,15 @@
     "06-11-2020 Rune: Emiiiil! Adrian styrker fællesskabet",
     "06-11-2020 Adrian: Mobning styrker fællesskabet",
     "06-11-2020 Adrian: Jeg kommer fra sverige! Skal du have noget snus?",
-    "14-11-2020 Rune: det er lidt som at have en 7eleven i et hospital det ved jeg godt..."
+    "14-11-2020 Rune: Det er lidt som at have en 7eleven i et hospital det ved jeg godt...",
+    "17-11-2020 Anne-Mette: Yakup, hvorfor har du så mange tasker?",
+    "Yakup: Jeg skal springe skolen i luften",
+    "19-11-2020 Shoto: Jeg har fanget Åndernes Herre! Sandrian: Hvad fanden laver den kultist i min kirke!",
+    "20-11-2020 Aske: Runse, vær lige uenig i Alfred og Vitus' meninger om at jeg har en chance i livet!",
+    "{ML}Rune: Det har du ikke.",
+    "{ML}Aske: Tak, Runse",
+    "20-11-2020 Aske: Kan jeg låne dine kreditkort informationer?",
+    "{ML}Rune: Du Får DEm TiLBagE iMorGeN",
 
 ]
 window.onload = function () {
@@ -235,5 +243,6 @@ window.onload = function () {
         
 
     }
+    document.getElementById("citater").innerHTML += "<br>"
     document.getElementById("forskelligecitater").textContent = x
 }

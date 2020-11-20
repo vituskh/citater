@@ -57,7 +57,7 @@
     "26-08-2019 Alfred: Man skulle forfanden tro at du står i ledtog med Dansk Folkeparti.",
     "29-08-2019 Rune: Glæd dig til at jeg får flere liv end dig.",
     "{ML}Jakob: Nej, du må ikke skifte karekter, jeg eeelsker dig!",
-    "30-08-2019 Vitus: Don't give the dragon an exsitensial crisis.",
+    "30-08-2019 Vitus: Don't give the dragon an existential crisis.",
     "30-08-2019 Adrian: Kan vi ikke sige, at jeg har en backpack med mine hoveder i?",
     "30-08-2019 Rune: Jeg kan ikke fejle.",
     "{ML}Emil: Whaao, stem på mig.",

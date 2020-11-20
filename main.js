@@ -166,6 +166,7 @@
     "07-09-2020 Aske: jeg bliver nød til at vide hvordan man simper!",
     "14-09-2020 Adrian: Ytringsfrihed er overvurderet",
     "16-09-2020 Marta: Det er politisk ukorrekt at sige spåkone",
+    "17-09-2020 Yakup: Han bliver voldtrakteret af 4 tyre om dagen for at få børn",
     "18-09 2020 Jens (en lærer i skolen): Den er teknisk set skolens stol...",
     "{ML}Yakup: Nej jeg har selv sat navneskilt på!!",
     "18-09 2020 Jens (lærer i skolen): Og nej du må selvfølgelig ikke tage andre folks stole Yakup",
@@ -208,10 +209,16 @@
     "{ML}Aske: Bliver de liderlige nu?",
     "{ML}Vitus: Ja!",
     "{ML}Aske: Fuck hvor fedt!",
+    "2-11-2020 Benjamin: En øl så kysser vi.",
+    "{ML}Aske: Et gram så går vi hele vejen!",
     "03-11-2020 Alfred: aehhh Aske... hvis jeg havde været en pige havde jeg fuldstændigt gennemsnavet dig...",
     "{ML}Aske: Hvorfor det?",
     "{ML}Alfred: jeg er ved at dø af tørst, og jeg skal bruge noget positivt i mit liv!",
     "06-11-2020 Rune: Emiiiil! Adrian styrker fællesskabet",
+    "06-11-2020 Adrian: Mobning styrker fællesskabet",
+    "06-11-2020 Adrian: Jeg kommer fra sverige! Skal du have noget snus?",
+    "14-11-2020 Rune: det er lidt som at have en 7eleven i et hospital det ved jeg godt..."
+
 ]
 window.onload = function () {
     var x = 0
@@ -222,7 +229,6 @@ window.onload = function () {
         if (person == src[0]) {
             document.getElementById("citater").innerHTML += "<br>" + "<p>" + person + ": \"" + citat + "\"" + "</p>";
             x++
-            if(("<br>" + "<p>" + person + ": \"" + citat + "\"" + "</p>").indexOf("undefined")) {console.log({src,citat,person})}
         } else {
             document.getElementById("citater").innerHTML += "<p>" + person + ": \"" + citat + "\"" + "</p>";
         }

@@ -233,6 +233,8 @@
     "20-11-2020 Adrian: Gider I ikke lade være med at kysse midt i ritualet?",
     "20-11-2020 Aske: Kan jeg låne dine kreditkort informationer?",
     "{ML}Rune: Du Får DEm TiLBagE iMorGeN",
+    "23-11-2020 Vores biologilærer (Nanna): Ja, men hvad skal hunnen?",
+    "{ML}Milo: Jeg ved det ikke, hun skal bolle?"
 
 ]
 window.onload = function () {

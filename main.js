@@ -1,4 +1,16 @@
-﻿var citater = [
+﻿var statistics = {
+    forskelligecitater: 0,
+    scoreboard: {
+        
+    },
+    scoreboardforhumans: [
+
+    ]
+}
+
+
+
+var citater = [
     "??-??-???? Random person fra rollespil: Hvorfor kyssede du hende ikke?",
     "{ML}Alfred: Fordi vi var til rollespil, og det ville være meget underligt.",
     "{ML}Random person: Det er dårligt rollespil!",
@@ -252,5 +264,98 @@ window.onload = function () {
 
     }
     document.getElementById("citater").innerHTML += "<br>"
+    statistics.forskelligecitater = x
     document.getElementById("forskelligecitater").textContent = x
+
+    for (let i = 0; i < citater.length; i++) {
+        var src = citater[i].replace(/\: /,'¤').split('¤');
+        var person = src[0].replace("{ML}", "").split(" ")
+        if(src[0].indexOf("{ML}") == -1) {
+            //nyt citat
+            var sidstecitat = false
+            if(citater[i+1]) {
+                var src2 = citater[i+1].replace(/\: /,'¤').split('¤');
+                var person2 = src2[0].replace("{ML}", "")
+            } else {
+                sidstecitat = true
+            }
+            if(src2[0] == person2 || sidstecitat) {
+                //citatet har kun 1 person i
+                person.shift()
+                person = person.join(" ")
+                winner = String(person)
+                if(winner == "") {
+                    console.warn({src,person,winner})
+                }
+                //console.log(winner, person[0])
+                if(statistics.scoreboard[winner]) {
+                    statistics.scoreboard[winner] += 1
+                } else {
+                    statistics.scoreboard[winner] = 1
+                }
+            }
+            
+        }
+    }
+}
+
+
+//Statistik
+
+
+
+function returnSortedArrayFromObject(input) {
+    var temp = {...input}
+    var output = []
+    while (Object.keys(temp).length > 0) {
+        var highestYet = {name:"",occurences:-1}
+        for (const property in temp) {
+            if (input.hasOwnProperty(property)) {
+                const element = temp[property];
+                if(highestYet.occurences < element) {
+                    highestYet.name=property
+                    highestYet.occurences=element
+                }
+            }
+        }
+        output.push(highestYet)
+        delete temp[highestYet.name]
+    }
+    return output
+}
+
+function closeStatistics() {
+    document.getElementById("statistics").style.display = "none"
+    document.getElementById("showStatistics").style.display = "block"
+    document.getElementById("text").style.display = "block"
+    
+    //document.getElementsByTagName("body")[0].classList.remove("stop-scrolling")
+}
+
+
+function showStatistics() {
+    document.getElementById("statistics").style.display = "block"
+    document.getElementById("showStatistics").style.display = "none"
+    document.getElementById("text").style.display = "none"
+    
+    window.scrollTo(0,20)
+    //document.getElementsByTagName("body")[0].classList.add("stop-scrolling")
+
+    document.getElementById("forskelligecitater2").textContent = statistics.forskelligecitater
+
+
+
+    //Scoreboard
+    statistics.scoreboardforhumans = returnSortedArrayFromObject(statistics.scoreboard)
+    var table = document.getElementById("scoreboard")
+    if(theme = "dark") {
+        table.innerHTML = "<tr><th class='is-dark'>Person</th><th class='is-dark'>Citater</th></tr>"
+    } else {
+        table.innerHTML = "<tr><th>Person</th><th>Citater</th></tr>"
+    }
+    
+    for (let i = 0; i < statistics.scoreboardforhumans.length; i++) {
+        const element = statistics.scoreboardforhumans[i];
+        table.innerHTML += "<tr><td>" + element.name + "</td><td>" + element.occurences + "</td></tr>"
+    }
 }

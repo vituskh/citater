@@ -6,11 +6,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Citater</title>
-    <script src="https://vitusverden.github.io/vitusresources/script.js"></script> <!--Vitus's navbar & dark theme osv-->
+    <script src="https://vitusverden.github.io/vitusresources/script.js"></script>
+    <!--Vitus's navbar & dark theme osv-->
+    <style>
+        #statistics {
+            width: 94vw;
+            /*height: 85vh;*/
+            position: sticky;
+            border-radius: 5vh;
+            background-color: lightgray;
+            padding: 3%;
+            top: 0vh;
+            left: 1%;
+        }
+
+        #statistics.is-dark {
+            background-color: black;
+        }
+
+        .stop-scrolling {
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        th, td, table {
+            border: 1px solid;
+            padding: 5%;
+            border-collapse: collapse;
+        }
+        table th.is-dark {
+            color:white;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="has-text-centered">
+    <button class="button" id="showStatistics" style="position: absolute;" onclick="showStatistics()">Citat
+        statistik</button>
+    <div style="display: none;" id="statistics">
+        <br>
+        <button class="button" id="closeStatistics" onclick="closeStatistics()"
+            style="position:absolute; top:5%; right:5%">Luk menu</button>
+        Der er <span id="forskelligecitater2"></span> forskellige citater
+        <br>
+        Scoreboard (tæller ikke med hvis det er et citat med mere end 1 person i)
+        <br>
+        <table id="scoreboard" style="min-width: 30%;">
+            <tr>
+                <th>Person</th>
+                <th>Citater</th>
+            </tr>
+            <tr>
+                <td>Navn</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Navn2</td>
+                <td>2</td>
+            </tr>
+        </table>
+    </div>
+    <div id="text" class="has-text-centered">
         <h class="h1">Citater (der er <b><span id="forskelligecitater">0</span></b> forskellige citater)</h1>
             <br>
             <br>

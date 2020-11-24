@@ -17,11 +17,11 @@ var citater = [
     "??-??-???? Vitus: Det er ikke en kappe, det er en tabard!",
     "??-??-2019 Emil: Piger er nogle girakkere.",
     "??-??-2019 Leo (fra N): vi har nok den mest almindelige klasse på årgangen",
+    "{ML}Malthe: lå lå lå lålålålålålå vi har fransk... vi skal mobbe Alia!",
     "??-??-2020 Benjamin: Jeg kan skabe en ny sol igennem mine anal rør.",
     "??-??-2020 Aske: Jeg ved ikke hvordan ørnes parrringsdans virker!",
     "{ML}Alfred: To ørne mødes har sex og smutter igen. ",
     "{ML}Benjamin: Jeg vil gerne være en ørn så!",
-    "{ML}Malthe: lå lå lå lålålålålålå vi har fransk... vi skal mobbe Alia!",
     "29-04-2019 Alfred: ... jeg er meget dybt koncentret i at skrive på et whiteboard.",
     "30-04-2019 Emil: Tænk hvis puden slår igen.",
     "01-05-2019 Emil: Jeg vil til darnhall.",
@@ -237,7 +237,7 @@ var citater = [
     "17-11-2020 Anne-Mette: Yakup, hvorfor har du så mange tasker?",
     "{ML}Yakup: Jeg skal springe skolen i luften",
     "19-11-2020 Shoto: Jeg har fanget Åndernes Herre!",
-    "{ML}Sandrian: Hvad fanden laver den kultist i min kirke!",
+    "{ML}Sandrian: Hvad fanden laver den kultist i min kirke?",
     "20-11-2020 Aske: Runse, vær lige uenig i Alfred og Vitus' meninger om at jeg har en chance i livet!",
     "{ML}Rune: Det har du ikke.",
     "{ML}Aske: Tak, Runse",
@@ -245,7 +245,8 @@ var citater = [
     "20-11-2020 Aske: Kan jeg låne dine kreditkort informationer?",
     "{ML}Rune: Du Får DEm TiLBagE iMorGeN",
     "23-11-2020 Vores biologilærer (Nanna): Ja, men hvad skal hunnen?",
-    "{ML}Milo: Jeg ved det ikke, hun skal bolle?"
+    "{ML}Milo: Jeg ved det ikke, hun skal bolle?",
+    "24-11-2020 Otto: Altså jeg har ikke tal på hvor mange gange han har prøvet at kneppe mig"
 
 ]
 window.onload = function () {

@@ -223,7 +223,7 @@
     "16-11-2020 Yakup: Jeg vil altid have at folk slås mere, for så har jeg noget at grine af!",
     "14-11-2020 Rune: Det er lidt som at have en 7eleven i et hospital det ved jeg godt...",
     "17-11-2020 Anne-Mette: Yakup, hvorfor har du så mange tasker?",
-    "Yakup: Jeg skal springe skolen i luften",
+    "{ML}Yakup: Jeg skal springe skolen i luften",
     "19-11-2020 Shoto: Jeg har fanget Åndernes Herre!",
     "{ML}Sandrian: Hvad fanden laver den kultist i min kirke!",
     "20-11-2020 Aske: Runse, vær lige uenig i Alfred og Vitus' meninger om at jeg har en chance i livet!",

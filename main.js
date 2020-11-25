@@ -246,8 +246,9 @@ var citater = [
     "{ML}Rune: Du Får DEm TiLBagE iMorGeN",
     "23-11-2020 Vores biologilærer (Nanna): Ja, men hvad skal hunnen?",
     "{ML}Milo: Jeg ved det ikke, hun skal bolle?",
-    "24-11-2020 Otto: Altså jeg har ikke tal på hvor mange gange han har prøvet at kneppe mig"
-
+    "24-11-2020 Otto: Altså jeg har ikke tal på hvor mange gange han har prøvet at kneppe mig",
+    "25-11-2020 Yakup: Jeg brænder gingeren!",
+    "25-11-2020 Aske: Ja, og derfor må du finde dig i voldtægt",
 ]
 window.onload = function () {
     var x = 0

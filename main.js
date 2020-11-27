@@ -22,6 +22,7 @@ var citater = [
     "??-??-2020 Aske: Jeg ved ikke hvordan ørnes parrringsdans virker!",
     "{ML}Alfred: To ørne mødes har sex og smutter igen. ",
     "{ML}Benjamin: Jeg vil gerne være en ørn så!",
+    "??-??-2020 Siri (Alfreds lillesøster): JEG VIL IND I DIG!",
     "29-04-2019 Alfred: ... jeg er meget dybt koncentret i at skrive på et whiteboard.",
     "30-04-2019 Emil: Tænk hvis puden slår igen.",
     "01-05-2019 Emil: Jeg vil til darnhall.",
@@ -249,6 +250,10 @@ var citater = [
     "24-11-2020 Otto: Altså jeg har ikke tal på hvor mange gange han har prøvet at kneppe mig",
     "25-11-2020 Yakup: Jeg brænder gingeren!",
     "25-11-2020 Aske: Ja, og derfor må du finde dig i voldtægt",
+    "26-11-2020 Aske: Jeg føler at jeg er mere weird om aftenen",
+    "{ML}Alfred: Der er jo en grund til at man har sex om aftenen ik?",
+    "26-11-2020 Sigurd: Otto, din klasse er retaderet.",
+    "{ML}David: Nej, de er bare mentalt udfordret.",
 ]
 window.onload = function () {
     var x = 0

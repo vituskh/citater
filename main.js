@@ -254,6 +254,7 @@ var citater = [
     "{ML}Alfred: Der er jo en grund til at man har sex om aftenen ik?",
     "26-11-2020 Sigurd: Otto, din klasse er retaderet.",
     "{ML}David: Nej, de er bare mentalt udfordret.",
+    "27-11-2020 Peter: jeg kunne tage til Afrika gokke 5 gange og tage tilbage igen på den tid",
 ]
 window.onload = function () {
     var x = 0

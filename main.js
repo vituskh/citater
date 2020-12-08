@@ -247,6 +247,7 @@ var citater = [
     "{ML}Rune: Du Får DEm TiLBagE iMorGeN",
     "23-11-2020 Vores biologilærer (Nanna): Ja, men hvad skal hunnen?",
     "{ML}Milo: Jeg ved det ikke, hun skal bolle?",
+    "24-11-2020 Thilde (fra N): Jeg tror, jeg skal have noget botox på hagen",
     "24-11-2020 Otto: Altså jeg har ikke tal på hvor mange gange han har prøvet at kneppe mig",
     "25-11-2020 Yakup: Jeg brænder gingeren!",
     "25-11-2020 Aske: Ja, og derfor må du finde dig i voldtægt",
@@ -254,7 +255,10 @@ var citater = [
     "{ML}Alfred: Der er jo en grund til at man har sex om aftenen ik?",
     "26-11-2020 Sigurd: Otto, din klasse er retaderet.",
     "{ML}David: Nej, de er bare mentalt udfordret.",
-    "27-11-2020 Peter: jeg kunne tage til Afrika gokke 5 gange og tage tilbage igen på den tid",
+    "27-11-2020 Peter: Jeg kunne tage til Afrika, gokke 5 gange og tage tilbage igen på den tid!",
+    "1-12-2020 aske: De er virkeligt rare at slappe de her!",
+    "{ML}Amalie: så skulle du prøve en rigtig balle!",
+    "03-12-2020 David (vores matematik lærer): Hvem fanden har voldtaget musen?"
 ]
 window.onload = function () {
     var x = 0

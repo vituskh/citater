@@ -258,7 +258,10 @@ var citater = [
     "27-11-2020 Peter: Jeg kunne tage til Afrika, gokke 5 gange og tage tilbage igen på den tid!",
     "1-12-2020 aske: De er virkeligt rare at slappe de her!",
     "{ML}Amalie: så skulle du prøve en rigtig balle!",
-    "03-12-2020 David (vores matematik lærer): Hvem fanden har voldtaget musen?"
+    "03-12-2020 David (vores matematik lærer): Hvem fanden har voldtaget musen?",
+    "27-11-2020 Vitus: Nårh ja, det føles lidt som at smutte mandler",
+    "27-11-2020 Alfred: Kan du ikke lade være med at misbruge min drikkedunk?",
+    "01-01-2021 Rune: Tror du Katy Perry har en diamant pik"
 ]
 window.onload = function () {
     var x = 0

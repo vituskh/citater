@@ -261,7 +261,13 @@ var citater = [
     "03-12-2020 David (vores matematik lærer): Hvem fanden har voldtaget musen?",
     "27-11-2020 Vitus: Nårh ja, det føles lidt som at smutte mandler",
     "27-11-2020 Alfred: Kan du ikke lade være med at misbruge min drikkedunk?",
-    "01-01-2021 Rune: Tror du Katy Perry har en diamant pik"
+    "27-11-2020 Aske: Det er rart at røre runes underdeller",
+    "01-01-2021 Rune: Tror du Katy Perry har en diamant pik?",
+    "04-01-2021 viggo: jeg håber det er en kontroleret skovbrænd jeg laver...",
+    "06-01-2021 Sigurd: Evigflamme... Det er sådan et indianer navn",
+    "Rune: INDIANER??",
+    "27-01-2021 Aske: Jeg kan ikke lide ikke at være den mest intelligente",
+    "{ML}Rune: Så må du skifte race",
 ]
 window.onload = function () {
     var x = 0

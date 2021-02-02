@@ -265,7 +265,7 @@ var citater = [
     "01-01-2021 Rune: Tror du Katy Perry har en diamant pik?",
     "04-01-2021 viggo: jeg håber det er en kontroleret skovbrænd jeg laver...",
     "06-01-2021 Sigurd: Evigflamme... Det er sådan et indianer navn",
-    "Rune: INDIANER??",
+    "{ML}Rune: INDIANER??",
     "27-01-2021 Aske: Jeg kan ikke lide ikke at være den mest intelligente",
     "{ML}Rune: Så må du skifte race",
 ]

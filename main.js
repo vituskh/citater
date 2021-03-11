@@ -249,6 +249,7 @@ var citater = [
     "{ML}Milo: Jeg ved det ikke, hun skal bolle?",
     "24-11-2020 Thilde (fra N): Jeg tror, jeg skal have noget botox på hagen",
     "24-11-2020 Otto: Altså jeg har ikke tal på hvor mange gange han har prøvet at kneppe mig",
+    "24-11-2020 Adrians Kemi lærer: Så skal i tage nogle stoffer",  
     "25-11-2020 Yakup: Jeg brænder gingeren!",
     "25-11-2020 Aske: Ja, og derfor må du finde dig i voldtægt",
     "26-11-2020 Aske: Jeg føler at jeg er mere weird om aftenen",
@@ -274,12 +275,17 @@ var citater = [
     "06-01-2021 Sigurd: Evigflamme... Det er sådan et indianer navn",
     "{ML}Rune: INDIANER??",
     "25-01-2021 Siri (Alfreds lillesøster): jeg vil kilde dig på hele din krop. BÅDE UDENPÅ OG INDEN I DIG!",
+    "26-01-2021 Anne-Mette: ... De har jo fået historien efter at det er sket.. Rune, læg lige din pistol fra dig, tak",
     "27-01-2021 Aske: Jeg kan ikke lide ikke at være den mest intelligente",
     "{ML}Rune: Så må du skifte race",
     "04-02-2021 Aske: Lad mig lige gamble hundrede tusinde.",
     "{ML}Vitus: Nej, Aske, du bliver ludoman",
     "{ML}Aske: Nejnej, jeg better lige to hundrede tusinde",
     "05-02-2021 Anne-Mette: Benjamin, når du bruger memes, hvor bruger du dem så?",
+    "03-03-2021 Rune: Jeg er girakker, jeg er ikke rall indtager",
+    "10-03-2021 Alfred: Hvorfor har du stjålet mit toiletpapir, Lili?",
+    "10-03-2021 Adrian: Det der magnetisme, er det magnetisme?",
+    "11-03-2021 Sofie: Det kan være, at i ser nogle piger"
 ]
 window.onload = function () {
     var x = 0

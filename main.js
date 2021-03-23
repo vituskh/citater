@@ -267,6 +267,7 @@ var citater = [
     "27-11-2020 Vitus: Nårh ja, det føles lidt som at smutte mandler",
     "27-11-2020 Alfred: Kan du ikke lade være med at misbruge min drikkedunk?",
     "27-11-2020 Aske: Det er rart at røre runes underdeller",
+    "27-11-2020 Alfred: Jeg har ikke nogen deller, lad være med at røre min navle!",
     "01-01-2021 Rune: Tror du Katy Perry har en diamant pik?",
     "04-01-2021 viggo: jeg håber det er en kontroleret skovbrænd jeg laver...",
     "06-01-2021 Sigurd: (læser citatlisten) Hvem er Amalie? I kender da ikke nogle piger?",
@@ -283,9 +284,15 @@ var citater = [
     "{ML}Aske: Nejnej, jeg better lige to hundrede tusinde",
     "05-02-2021 Anne-Mette: Benjamin, når du bruger memes, hvor bruger du dem så?",
     "03-03-2021 Rune: Jeg er girakker, jeg er ikke rall indtager",
+    "09-12-2020 Anne-Mette (lærer): Nej, Ferdinan, vi gider ikke mere gud!",
     "10-03-2021 Alfred: Hvorfor har du stjålet mit toiletpapir, Lili?",
     "10-03-2021 Adrian: Det der magnetisme, er det magnetisme?",
-    "11-03-2021 Sofie: Det kan være, at i ser nogle piger"
+    "11-03-2021 Sofie: Det kan være, at I ser nogle piger.",
+    "19-03-2021 Anne-Mette: Jeg, jeg ved da godt hvad en virgin er, men hvad har det med reddit at gøre?",
+    "20-03-2021 Benjamin: Nej, Lenny er ikke død, han har bare fået et sværd igennem ryggen.",
+    "23-03-2021 Benjamin: Du misser meget, når du ikke sover med os.",
+    "23-03-2021 Emil: Hun er blevet overfaldet af en hær af brændende babyer",
+    "22-03-2021 Aske: Aiolien flyder fandme!",
 ]
 window.onload = function () {
     var x = 0

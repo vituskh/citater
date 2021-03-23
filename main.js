@@ -290,9 +290,9 @@ var citater = [
     "11-03-2021 Sofie: Det kan være, at I ser nogle piger.",
     "19-03-2021 Anne-Mette: Jeg, jeg ved da godt hvad en virgin er, men hvad har det med reddit at gøre?",
     "20-03-2021 Benjamin: Nej, Lenny er ikke død, han har bare fået et sværd igennem ryggen.",
+    "22-03-2021 Aske: Aiolien flyder fandme!",
     "23-03-2021 Benjamin: Du misser meget, når du ikke sover med os.",
     "23-03-2021 Emil: Hun er blevet overfaldet af en hær af brændende babyer",
-    "22-03-2021 Aske: Aiolien flyder fandme!",
 ]
 window.onload = function () {
     var x = 0

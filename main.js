@@ -271,8 +271,8 @@ var citater = [
     "01-01-2021 Rune: Tror du Katy Perry har en diamant pik?",
     "04-01-2021 viggo: jeg håber det er en kontroleret skovbrænd jeg laver...",
     "06-01-2021 Sigurd: (læser citatlisten) Hvem er Amalie? I kender da ikke nogle piger?",
-    "Vitus: (grinende) Det er en pedagog på klubben",
-    "Sigurd: Nååh",
+    "{ML}Vitus: (grinende) Det er en pedagog på klubben",
+    "{ML}Sigurd: Nååh",
     "06-01-2021 Sigurd: Evigflamme... Det er sådan et indianer navn",
     "{ML}Rune: INDIANER??",
     "25-01-2021 Siri (Alfreds lillesøster): jeg vil kilde dig på hele din krop. BÅDE UDENPÅ OG INDEN I DIG!",
@@ -297,9 +297,9 @@ var citater = [
 window.onload = function () {
     var x = 0
     for (let i = 0; i < citater.length; i++) {
-        var src = citater[i].replace(/\: /,'¤').split('¤');
-        var person = src[0].replace("{ML}", "")
-        var citat = src[1];
+        let src = citater[i].replace(/\: /,'¤').split('¤');
+        let person = src[0].replace("{ML}", "")
+        let citat = src[1];
         if (person == src[0]) {
             document.getElementById("citater").innerHTML += "<br>" + "<p>" + person + ": \"" + citat + "\"" + "</p>";
             x++
@@ -314,8 +314,8 @@ window.onload = function () {
     document.getElementById("forskelligecitater").textContent = x
 
     for (let i = 0; i < citater.length; i++) {
-        var src = citater[i].replace(/\: /,'¤').split('¤');
-        var person = src[0].replace("{ML}", "").split(" ")
+        let src = citater[i].replace(/\: /,'¤').split('¤');
+        let person = src[0].replace("{ML}", "").split(" ")
         if(src[0].indexOf("{ML}") == -1) {
             //nyt citat
             var sidstecitat = false
@@ -329,9 +329,9 @@ window.onload = function () {
                 //citatet har kun 1 person i
                 person.shift()
                 person = person.join(" ")
-                winner = String(person)
+                var winner = String(person)
                 if(winner == "") {
-                    console.warn({src,person,winner})
+                    console.warn("Noget er galt med citatet" + {src,person,winner})
                 }
                 //console.log(winner, person[0])
                 if(statistics.scoreboard[winner]) {
@@ -398,7 +398,7 @@ function showStatistics() {
     //Scoreboard
     statistics.scoreboardforhumans = returnSortedArrayFromObject(statistics.scoreboard)
     var table = document.getElementById("scoreboard")
-    if(theme = "dark") {
+    if(theme == "dark") {
         table.innerHTML = "<tr><th class='is-dark'>Person</th><th class='is-dark'>Citater</th></tr>"
     } else {
         table.innerHTML = "<tr><th>Person</th><th>Citater</th></tr>"

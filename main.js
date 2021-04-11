@@ -295,6 +295,12 @@ var citater = [
     "23-03-2021 Emil: Hun er blevet overfaldet af en hær af brændende babyer",
     "24-03-2021 Adrian: Ryger i urt?",
     "06-04-2021 Marta: Skal du ikke speedrunne os, Aske?",
+    "07-08-2021 Anne-Mette: Hvad er en homie-yo for dig?",
+    "09-04-2021 Alfred: Kæft de må fryse de der piger",
+    "{ML}Vitus: Altså fordi de sidder ned?",
+    "{ML}Alfred: Nej, fordi de ikke har noget tøj på",
+    "{ML}Rune: Veeent vent vent, <i>hvad</i>??",
+    "09-04-2021 Jeppe lærer: Hvad så ungys, det bliver mega spændende idag, vi skal lave videre i irrrhh irrrhh wraaw wraaaw!",
 ]
 window.onload = function () {
     var x = 0

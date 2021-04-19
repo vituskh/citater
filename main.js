@@ -269,7 +269,7 @@ var citater = [
     "27-11-2020 Aske: Det er rart at røre runes underdeller",
     "27-11-2020 Alfred: Jeg har ikke nogen deller, lad være med at røre min navle!",
     "01-01-2021 Rune: Tror du Katy Perry har en diamant pik?",
-    "04-01-2021 viggo: jeg håber det er en kontroleret skovbrænd jeg laver...",
+    "04-01-2021 Viggo: jeg håber det er en kontroleret skovbrænd jeg laver...",
     "06-01-2021 Sigurd: (læser citatlisten) Hvem er Amalie? I kender da ikke nogle piger?",
     "{ML}Vitus: (grinende) Det er en pedagog på klubben",
     "{ML}Sigurd: Nååh",
@@ -301,8 +301,10 @@ var citater = [
     "{ML}Alfred: Nej, fordi de ikke har noget tøj på",
     "{ML}Rune: Veeent vent vent, <i>hvad</i>??",
     "09-04-2021 Jeppe lærer: Hvad så ungys, det bliver mega spændende idag, vi skal lave videre i irrrhh irrrhh wraaw wraaaw!",
+    "12-04-2021 Rune: Oh ja, mine høretelefoner har også været ødelagt. Det fiksede noget superlim.",
     "11-04-2021 Aske: [svarer på et spørgsmål om han vil være usynlig i bytte for ikke at kunne få børn ] Jeg hader børn, fuck børn, det er da mega smart, så behøver du ikke at have protection 3",
     "13-04-2021 Jeppe: Altså, du har måske ikke betalt så meget endnu, men det kommer du til! Oh boy, you'll pay!",
+    "19-04-2021 Aske: Okay, kan jeg prøve at brænde aret væk?",
 ]
 window.onload = function () {
     var x = 0

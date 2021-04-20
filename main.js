@@ -305,6 +305,7 @@ var citater = [
     "11-04-2021 Aske: [svarer på et spørgsmål om han vil være usynlig i bytte for ikke at kunne få børn ] Jeg hader børn, fuck børn, det er da mega smart, så behøver du ikke at have protection 3",
     "13-04-2021 Jeppe: Altså, du har måske ikke betalt så meget endnu, men det kommer du til! Oh boy, you'll pay!",
     "19-04-2021 Aske: Okay, kan jeg prøve at brænde aret væk?",
+    "19-04-2021 Rune: Jeg hoppede ud af et vindue for Hitler",
 ]
 window.onload = function () {
     var x = 0

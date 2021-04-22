@@ -304,8 +304,18 @@ var citater = [
     "12-04-2021 Rune: Oh ja, mine høretelefoner har også været ødelagt. Det fiksede noget superlim.",
     "11-04-2021 Aske: [svarer på et spørgsmål om han vil være usynlig i bytte for ikke at kunne få børn ] Jeg hader børn, fuck børn, det er da mega smart, så behøver du ikke at have protection 3",
     "13-04-2021 Jeppe: Altså, du har måske ikke betalt så meget endnu, men det kommer du til! Oh boy, you'll pay!",
+    "18-03-2021 Emil: ... ost ...",
     "19-04-2021 Aske: Okay, kan jeg prøve at brænde aret væk?",
     "19-04-2021 Rune: Jeg hoppede ud af et vindue for Hitler",
+    "20-04-2021 Emil: Derfor er jeg glad for at have et eksternt tastatur, fordi så kan jeg tage tasterne af og sætte dem i opvaskemaskinen",
+    "{ML}Aske: Opvaskemaskinen?",
+    "{ML}Emil: Jaja, så bliver de helt rene",
+    "20-04-2021 Aske: Rune, stop med at tro at du er Kong Fu Panda",
+    "20-04-2021 Yakup: Aske, du tager aldrig din telefon. Hvis jeg ringede til dig og fortalte at din mor var død, ville du ikke engang nå begravelsen.",
+    "20-04-2021 Yakup: Men ISIS er vel også sådan, Amerika",
+    "21-04-2021 Rune: Jeg fucking begår selvmord på dig",
+    "22-04-2021 Jeppe: Pablo fra Argentina ligger i sin hospitalsseng. Kun hans albue virker, resten er brækket og hans kone laver et live-sexshow med hans bedste ven og hans far, alt imens der spilles Crazyfrog i baggrunden.",
+
 ]
 window.onload = function () {
     var x = 0

@@ -1,4 +1,4 @@
-﻿var statistics = {
+var statistics = {
     forskelligecitater: 0,
     scoreboard: {
         
@@ -315,7 +315,10 @@ var citater = [
     "20-04-2021 Yakup: Men ISIS er vel også sådan, Amerika",
     "21-04-2021 Rune: Jeg fucking begår selvmord på dig",
     "22-04-2021 Jeppe: Pablo fra Argentina ligger i sin hospitalsseng. Kun hans albue virker, resten er brækket og hans kone laver et live-sexshow med hans bedste ven og hans far, alt imens der spilles Crazyfrog i baggrunden.",
-
+    "29-04-2021 Aske: Det er ret nemt at være indisk",
+    "03-05-2021 Madicken: Hvorfor spermer du på gulvet, Villads?",
+    "03-05-2021 Sex og samfund person: Hvordan føder man så?",
+    "{ML}Yakup: Man presser!",
 ]
 window.onload = function () {
     var x = 0

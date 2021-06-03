@@ -18,7 +18,7 @@ var citater = [
     "??-??-2019 Emil: Piger er nogle girakkere.",
     "??-??-2019 Leo (fra N): vi har nok den mest almindelige klasse på årgangen",
     "{ML}Malthe: (kommer forbi) lå lå lå lålålålålålå vi har fransk... vi skal mobbe Alia!",
-    "??-??-2020 Benjamin: Jeg kan skabe en ny sol igennem mine analrør.",
+    "??-??-2020 Benjamin: Jeg kan skabe en ny sol igennem mine anale rør.",
     "??-??-2020 Aske: Jeg ved ikke hvordan ørnes parrringsdans virker!",
     "{ML}Alfred: To ørne mødes har sex og smutter igen. ",
     "{ML}Benjamin: Jeg vil gerne være en ørn så!",

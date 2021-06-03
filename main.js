@@ -376,7 +376,7 @@ window.onload = function () {
                 person = person.join(" ")
                 var winner = String(person)
                 if(winner == "") {
-                    console.warn("Noget er galt med citatet" + {src,person,winner})
+                    alert("Noget er galt med citatet" + {src,person,winner})
                 }
                 //console.log(winner, person[0])
                 if(statistics.scoreboard[winner]) {

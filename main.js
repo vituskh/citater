@@ -268,6 +268,8 @@ var citater = [
     "27-11-2020 Alfred: Kan du ikke lade være med at misbruge min drikkedunk?",
     "27-11-2020 Aske: Det er rart at røre runes underdeller",
     "27-11-2020 Alfred: Jeg har ikke nogen deller, lad være med at røre min navle!",
+    "??-??-2020 Aske: du må sgu da ikke dræbe børnene!",
+    "{ML}Alfred: Slap af, det er min egne.",
     "01-01-2021 Rune: Tror du Katy Perry har en diamant pik?",
     "04-01-2021 Viggo: Jeg håber, det er en kontroleret skovbrænd jeg laver...",
     "06-01-2021 Sigurd: (læser citatlisten) Hvem er Amalie? I kender da ikke nogle piger?",
@@ -322,8 +324,20 @@ var citater = [
     "{ML}Yakup: Man presser!",
     "06-05-2021 Emil: Ragil vogter over dig og din hest.",
     "{ML}Alfred: Jeg har ikke nogen heks!",
-    
-
+    "06-05-2021 Aske: Men aligevel, hvis jeg lavede en hest, for den er jo virkelig og ikke mental.",
+    "15-05-2021 Aske: Rune, din skovl er skæv",
+    "15-05-2021 Aske: Jeg har mange boners hverdag stop med at give mig flere",
+    "16-05-2021 Rune: Jeg tænker.....",
+    "{ML}Benjamin: Det du tænker er forkert",
+    "19-05-2021 Yakup: (ser Alfred) Gal, din trøje er strammere end Rasmus Paludans politik",
+    "29-05-2020 Emil: Du kan leve i en IKEA langt hen ad vejen.",
+    "30-05-2020 Rune: Man kan godt voldtage folk, selv om man er 8 år.",
+    "30-05-2020 Vitus: Ifølge de her regler, kan man teknisk set godt være nekrofil.",
+    "03-06-2021 Aske: Min fuckfinger virker bare ikke",
+    "02-06-2021 Vitus: Yakup, skal alle indvandrere ud?",
+    "{ML}Yakup: Nej",
+    "{ML}Aske: Hvad skal Yakups parti hedde?",
+    "{ML}Marta: Glat kurs",
 ]
 window.onload = function () {
     var x = 0

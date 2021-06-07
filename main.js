@@ -338,6 +338,8 @@ var citater = [
     "{ML}Yakup: Nej",
     "{ML}Aske: Hvad skal Yakups parti hedde?",
     "{ML}Marta: Glat kurs",
+    "05-06-2021 Benjamin: Jeg er ikke i sommerhus, jeg er bare fattig",
+    "07-06-2021 Alfred: nogle gange begynder jeg bare randomly at bløde.... i min negl...",
 ]
 window.onload = function () {
     var x = 0

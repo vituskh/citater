@@ -322,6 +322,7 @@ var citater = [
     "03-05-2021 Madicken: Hvorfor spermer du på gulvet, Villads?",
     "03-05-2021 Sex og samfund person: Hvordan føder man så?",
     "{ML}Yakup: Man presser!",
+    "05-05-2021 Yakup: Euw, lad mig stikke den op i dig.",
     "06-05-2021 Emil: Ragil vogter over dig og din hest.",
     "{ML}Alfred: Jeg har ikke nogen heks!",
     "06-05-2021 Aske: Men aligevel, hvis jeg lavede en hest, for den er jo virkelig og ikke mental.",
@@ -340,6 +341,11 @@ var citater = [
     "{ML}Marta: Glat kurs",
     "05-06-2021 Benjamin: Jeg er ikke i sommerhus, jeg er bare fattig",
     "07-06-2021 Alfred: Nogle gange begynder jeg bare randomly at bløde.... i min negl...",
+    "07-06-2021 Rune: Brormand fra en anden mormand!",
+    "07-06-2021 Emil: Det er to ting, jeg ikke kan sætte sammen i hovedet: VC og banan.",
+    "10-06-2021 Tilfældig mand i en bil: (til Aske og Alfred) SÆD!",
+    "10-06-2021 Tilfældig rockertype: (til Alfred og Aske) Hvad fanden er det, der stikker ud af jeres tasker?",
+    "15-06-2021 Marta: Jeg elsker, når Marcus voldtager en.",
 ]
 window.onload = function () {
     var x = 0

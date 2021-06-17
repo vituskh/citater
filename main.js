@@ -317,7 +317,7 @@ var citater = [
     "20-04-2021 Yakup: Men ISIS er vel også sådan, Amerika",
     "21-04-2021 Rune: Jeg fucking begår selvmord på dig",
     "22-04-2021 Jeppe: Pablo fra Argentina ligger i sin hospitalsseng. Kun hans albue virker, resten er brækket og hans kone laver et live-sexshow med hans bedste ven og hans far, alt imens der spilles Crazyfrog i baggrunden.",
-    "22-04 2021 Marta: Vitus, du lyder som matematikfessor, når du læser op",
+    "22-04-2021 Marta: Vitus, du lyder som matematikfessor, når du læser op",
     "29-04-2021 Aske: Det er ret nemt at være indisk",
     "03-05-2021 Madicken: Hvorfor spermer du på gulvet, Villads?",
     "03-05-2021 Sex og samfund person: Hvordan føder man så?",
@@ -339,7 +339,7 @@ var citater = [
     "{ML}Aske: Hvad skal Yakups parti hedde?",
     "{ML}Marta: Glat kurs",
     "05-06-2021 Benjamin: Jeg er ikke i sommerhus, jeg er bare fattig",
-    "07-06-2021 Alfred: nogle gange begynder jeg bare randomly at bløde.... i min negl...",
+    "07-06-2021 Alfred: Nogle gange begynder jeg bare randomly at bløde.... i min negl...",
 ]
 window.onload = function () {
     var x = 0

@@ -346,6 +346,13 @@ var citater = [
     "10-06-2021 Tilfældig mand i en bil: (til Aske og Alfred) SÆD!",
     "10-06-2021 Tilfældig rockertype: (til Alfred og Aske) Hvad fanden er det, der stikker ud af jeres tasker?",
     "15-06-2021 Marta: Jeg elsker, når Marcus voldtager en.",
+    "18-06-2021 Alfred: Nej, jeg gider ikke at få en orgasme i offentligheden. Ikke lige nu...",
+    "20-06-2021 Rune: Okay, så hvad er densiteten af et barn?",
+    "21-06-2021 Aske: Jeg hader militærchicks, de sprøjter barberskum og er tryhard til høvdingebold",
+    "21-06-2021 Rune: Det var faktisk ret rart at blive sprøjtet på",
+    "22-06-2021 Rune: Han knækker mit hoved!",
+    "{ML}Aske: Ja, og jeg knækker din pik",
+    "24-06-2021 Benjamin: Sex er en god anime.",
 ]
 window.onload = function () {
     var x = 0

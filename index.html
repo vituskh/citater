@@ -58,12 +58,16 @@
         div.citat {
             padding-bottom: 0.8em;
         }
+
+        #buttonsDiv {
+            position: fixed;
+            bottom: 3vh;
+            left: 3vh;
+        }
     </style>
 </head>
 
 <body>
-    <button class="button" id="showStatistics" style="position: absolute;" onclick="showStatistics()">Citat
-        statistik</button>
     <div style="display: none;" id="statistics">
         <br>
         <button class="button" id="closeStatistics" onclick="closeStatistics()"
@@ -94,6 +98,12 @@
             <div id="citater">
             </div>
 
+    </div>
+
+    <div id="buttonsDiv">
+        <button class="button" id="showStatistics" onclick="showStatistics()">Citat statistik</button>
+        <button class="button" onclick="goToTop()">Top</button>
+        <button class="button" id="changeOrderButton" onclick="toggleSort()">Skift til kronologisk rækkefølge</button>
     </div>
 
     <script src="main.js"></script>

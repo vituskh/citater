@@ -1,7 +1,8 @@
 //Citater bliver loadet fra citater.js
-
-var dateSortedCitater = []
+var statistics = new Map()
+var sortedCitater = []
 var citater = []
+var currentSort = "added"
 console.time("Format")
 for (let i = 0; i < rawCitater.length; i++) {
     const element = rawCitater[i];
@@ -26,11 +27,6 @@ for (let i = 0; i < rawCitater.length; i++) {
         person = tempSplit.join(" ")
     }
 
-    
-
-    
-    
-
 
     //Lad os lige teste citatet for at sikre, at det virker.
         if( 
@@ -54,6 +50,8 @@ for (let i = 0; i < rawCitater.length; i++) {
             ],
             dato: dato
         })
+
+
     } else {
         //Tilføj det her citat til det sidste i listen.
         citater[citater.length-1].citater.push({
@@ -63,34 +61,165 @@ for (let i = 0; i < rawCitater.length; i++) {
     }
     
 }
+
+for (let i = 0; i < citater.length; i++) {
+    const element = citater[i];
+    if(element.citater.length > 1) continue
+    
+    if(statistics.has(element.citater[0].person)) {
+        statistics.set(element.citater[0].person, statistics.get(element.citater[0].person) + 1)
+    } else {
+        statistics.set(element.citater[0].person, 1)
+    }
+}
+statistics = new Map([...statistics.entries()].sort((a,b) => {return b[1] - a[1]})); //apparently sorterer det ting?? Ingen ide hvordan det virker, fandt det på nettet...
+
+document.getElementById("forskelligecitater2").textContent = citater.length
+document.getElementById("forskelligecitater").textContent = citater.length
+
+
+
+
+//document.getElementsByTagName("body")[0].classList.add("stop-scrolling")
+
+
+
+
+//Scoreboard
+var table = document.getElementById("scoreboard")
+if(theme == "dark") {
+    table.innerHTML = "<tr><th class='is-dark'>Person</th><th class='is-dark'>Citater</th></tr>"
+} else {
+    table.innerHTML = "<tr><th>Person</th><th>Citater</th></tr>"
+}
+
+for (const [key,val] of statistics.entries()) {
+    table.innerHTML += "<tr><td>" + key + "</td><td>" + val + "</td></tr>"
+}
+
+
+
+
+var savedScrollPos
+function showStatistics() {
+    document.getElementById("statistics").style.display = "block"
+    document.getElementById("buttonsDiv").style.display = "none"
+    document.getElementById("text").style.display = "none"
+    savedScrollPos = window.scrollY
+    window.scrollTo(0,20)   
+}
+
+function closeStatistics() {
+    
+    document.getElementById("statistics").style.display = "none"
+    document.getElementById("buttonsDiv").style.display = "block"
+    document.getElementById("text").style.display = "block"
+    window.scrollTo(0,savedScrollPos)   
+}
+
+
+
+
+
+/**
+ * 
+ * @param {object} element object fra citater arrayen
+ */
+
+function returnElementFromCitat(element) {
+    el = document.createElement("div")
+    el.classList.add("citat")
+    el.innerHTML = "<p class='citatDate'><strong>" + element.dato + "</strong></p>"
+
+    for (let o = 0; o < element.citater.length; o++) {
+        const citat = element.citater[o];
+        el.innerHTML += "<p class='citatNameAndContent'>" + citat.person + ": " + citat.citat + "</p>"
+    }
+
+    return el
+}
 console.timeEnd("Format")
 function showNormalOrder() { //I den rækkefølge, som de er tilføjet.
     console.time("normalOrder")
     var fragment = new DocumentFragment() //Performance grunde...
-    var el
 
-    for (let i = 0; i < citater.length; i++) {
-        const element = citater[i];
-        
-        
-        el = document.createElement("div")
-        el.classList.add("citat")
-        el.innerHTML = "<p class='citatDate'><strong>" + element.dato + "</strong></p>"
-
-        for (let o = 0; o < element.citater.length; o++) {
-            const citat = element.citater[o];
-            el.innerHTML += "<p class='citatNameAndContent'>" + citat.person + ": " + citat.citat + "</p>"
-        }
-
-        fragment.appendChild(el)
-
+    for (let i = 0; i < citater.length; i++) {    
+        fragment.appendChild(returnElementFromCitat(citater[i]))
     }
-
+    document.getElementById("citater").innerHTML = ""
     document.getElementById("citater").appendChild(fragment)
     console.timeEnd("normalOrder")
 }
 
-showNormalOrder()
+
+function showSortedOrder() {
+    console.time("sortedOrderRender")
+    if(sortedCitater.length !== citater.length) {
+        console.time("sorting")
+        //Vi sorterer dem kun, hvis det er nødvendigt. Der er ingen grund til at sortere dem ved load.
+
+        var tempSortingArray = []
+
+        for (let i = 0; i < citater.length; i++) {
+            const element = citater[i];
+            
+            const unknown = element.dato.includes("?") ? true : false
+
+            var day = Number(element.dato.split("-")[0].replace(/\?/g, "0"))
+            var month = Number(element.dato.split("-")[1].replace(/\?/g, "0"))-1 //Måneder tæller åbenbart fra 0
+            var year = Number(element.dato.split("-")[2].replace(/\?/g, "0"))
+            var date = new Date(year,month,day)
+
+            tempSortingArray.push({unknown: unknown, date:date, id: i}) //ingen grund til at opbevare citaterne to steder, vi kan bare opbevare de sorterede id'er
+        }
+        
+        tempSortingArray.sort((a,b) => {
+            if(b.unknown) return 1
+            if(a.unknown) return -1
+            return a.date - b.date
+        })
+        
+        sortedCitater = tempSortingArray.map(e => {return e.id})
+        console.timeEnd("sorting")
+    }
+
+    var fragment = new DocumentFragment() //Performance grunde...
+
+    for (let i = 0; i < citater.length; i++) {    
+        fragment.appendChild(returnElementFromCitat(citater[sortedCitater[i]]))
+    }
+    document.getElementById("citater").innerHTML = ""
+    document.getElementById("citater").appendChild(fragment)
+    
+
+    console.timeEnd("sortedOrderRender")
+}
+
+
+
+window.addEventListener("load", (event) => {
+    showNormalOrder()
+    setTimeout(() => {
+        window.scrollTo(0, document.body.scrollHeight)
+    }, 20); //cirka lidt mere end 1 frame
+})
+
+function goToTop() {
+    window.scrollTo(0,0)
+}
+
+function toggleSort() {
+    if(currentSort === "added") {
+        currentSort = "chronological"
+        document.getElementById("changeOrderButton").innerText ="Skift til rækkefølgen, de blev tilføjet i"
+        showSortedOrder()
+    } else {
+        currentSort = "added"
+        document.getElementById("changeOrderButton").innerText ="Skift til kronologisk rækkefølge"
+        showNormalOrder()
+    }
+}
+
 /*
 window.onload = function () {
     console.time("gammel")

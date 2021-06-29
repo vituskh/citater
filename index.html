@@ -8,7 +8,16 @@
     <title>Citater</title>
     <script src="https://vitusverden.github.io/vitusresources/script.js"></script>
     <!--Vitus's navbar & dark theme osv-->
+
+    <script src="citater.js"></script>
     <style>
+        strong {
+            color:inherit; /*Bulma er wierd, de sætter farven på strong tags??*/    
+        }
+        p {
+            font-family: Garamond;
+            font-size: large
+        }
         #statistics {
             width: 94vw;
             /*height: 85vh;*/
@@ -36,6 +45,18 @@
         }
         table th.is-dark {
             color:white;
+        }
+        
+        div>p.citatDate {
+            font-size: x-small;
+            line-height: 1;
+        }
+        div>p.citatName {
+            font-size: small;
+            line-height: 1;
+        }
+        div.citat {
+            padding-bottom: 0.8em;
         }
     </style>
 </head>
@@ -71,7 +92,6 @@
             <br>
             <br>
             <div id="citater">
-
             </div>
 
     </div>

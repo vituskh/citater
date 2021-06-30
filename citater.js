@@ -290,7 +290,7 @@ var rawCitater = [
     "+n Vitus: Altså fordi de sidder ned?",
     "+n Alfred: Nej, fordi de ikke har noget tøj på",
     "+n Rune: Veeent vent vent, <i>hvad</i>??",
-    "09-04-2021 Jeppe lærer: Hvad så ungys, det bliver mega spændende idag, vi skal lave videre i irrrhh irrrhh wraaw wraaaw!",
+    "09-04-2021 Jeppe: Hvad så ungys, det bliver mega spændende idag, vi skal lave videre i irrrhh irrrhh wraaw wraaaw!",
     "12-04-2021 Rune: Oh ja, mine høretelefoner har også været ødelagt. Det fiksede noget superlim.",
     "11-04-2021 Aske: [svarer på et spørgsmål om han vil være usynlig i bytte for ikke at kunne få børn ] Jeg hader børn, fuck børn, det er da mega smart, så behøver du ikke at have protection 3",
     "13-04-2021 Jeppe: Altså, du har måske ikke betalt så meget endnu, men det kommer du til! Oh boy, you'll pay!",

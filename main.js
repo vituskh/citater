@@ -84,17 +84,27 @@ document.getElementById("forskelligecitater").textContent = citater.length
 
 
 
+{
+    
+    //Scoreboard
 
-//Scoreboard
-var table = document.getElementById("scoreboard")
-if(theme == "dark") {
-    table.innerHTML = "<tr><th class='is-dark'>Person</th><th class='is-dark'>Citater</th></tr>"
-} else {
-    table.innerHTML = "<tr><th>Person</th><th>Citater</th></tr>"
-}
 
-for (const [key,val] of statistics.entries()) {
-    table.innerHTML += "<tr><td>" + key + "</td><td>" + val + "</td></tr>"
+    var table = document.getElementById("scoreboard")
+    if(theme == "dark") {
+        table.innerHTML = "<tr><th class='is-dark'>Person</th><th class='is-dark'>Citater</th></tr>"
+    } else {
+        table.innerHTML = "<tr><th>Person</th><th>Citater</th></tr>"
+    }
+
+    var fragment = document.createDocumentFragment()
+    var el
+    for (const [key,val] of statistics.entries()) {
+        el = document.createElement("tr")
+        el.innerHTML += "<td>" + key + "</td><td>" + val + "</td>"
+        fragment.appendChild(el)
+    }
+
+    table.appendChild(fragment)
 }
 
 

@@ -18,6 +18,8 @@
             font-family: Garamond;
             font-size: large
         }
+
+        
         #statistics {
             width: 94vw;
             /*height: 85vh;*/
@@ -26,13 +28,24 @@
             background-color: lightgray;
             padding: 3%;
             top: 0vh;
-            left: 1%;
+            text-align: center;
+            margin: auto;
+        }
+        #scoreboard {
+            margin: auto;
+            max-width: 90%;
+        }
+        #scoreboard>tbody>tr>th, #scoreboard>tbody>tr>td {
+            min-width: 5em;
         }
 
         #statistics.is-dark {
-            background-color: black;
+            background-color: rgb(0, 0, 29);
         }
-
+        #statistics>p {
+            margin: auto;
+            width: fit-content;
+        }
         .stop-scrolling {
             height: 100vh;
             overflow: hidden;
@@ -60,9 +73,15 @@
         }
 
         #buttonsDiv {
-            position: fixed;
+            float: left;
+            position: sticky;
             bottom: 3vh;
             left: 3vh;
+            max-width: 80vw;
+        }
+
+        #buttonsDiv>button {
+            max-width: 100%;
         }
     </style>
 </head>
@@ -70,13 +89,12 @@
 <body>
     <div style="display: none;" id="statistics">
         <br>
-        <button class="button" id="closeStatistics" onclick="closeStatistics()"
-            style="position:absolute; top:5%; right:5%">Luk menu</button>
-        Der er <span id="forskelligecitater2"></span> forskellige citater
+        <button class="button" id="closeStatistics" onclick="closeStatistics()" style="float: right; position: sticky; top:10%">Luk menu</button>
+        <p>Der er <span id="forskelligecitater2"></span> forskellige citater</p>
+        
+        <p>Scoreboard (tæller ikke med hvis det er et citat med mere end 1 person i)</p>
         <br>
-        Scoreboard (tæller ikke med hvis det er et citat med mere end 1 person i)
-        <br>
-        <table id="scoreboard" style="min-width: 30%;">
+        <table id="scoreboard" >
             <tr>
                 <th>Person</th>
                 <th>Citater</th>
@@ -97,8 +115,9 @@
             <br>
             <div id="citater">
             </div>
-
+        <br>
     </div>
+
 
     <div id="buttonsDiv">
         <button class="button" id="showStatistics" onclick="showStatistics()">Citat statistik</button>

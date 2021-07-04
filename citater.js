@@ -341,4 +341,6 @@ var rawCitater = [
     "22-06-2021 Rune: Han knækker mit hoved!",
     "+n Aske: Ja, og jeg knækker din pik",
     "24-06-2021 Benjamin: Sex er en god anime.",
+    "25-06-2021 Emil: Hun giver dig et slap, helt ligesom i de gamle dage",
+    "25-06-2021 Aske: Benjamin, kan du lide at have sex med guld?",
 ]

@@ -1,0 +1,84 @@
+
+
+
+strong {
+    color:inherit; /*Bulma er wierd, de sætter farven på strong tags??*/    
+}
+p {
+    font-family: Garamond;
+    font-size: large
+}
+
+
+#statistics {
+    width: 94vw;
+    /*height: 85vh;*/
+    position: sticky;
+    border-radius: 5vh;
+    background-color: lightgray;
+    padding: 3%;
+    top: 0vh;
+    text-align: center;
+    margin: auto;
+}
+#scoreboard {
+    margin: auto;
+    max-width: 90%;
+}
+#scoreboard>tbody>tr>th, #scoreboard>tbody>tr>td {
+    min-width: 5em;
+}
+
+#statistics.is-dark {
+    background-color: rgb(23, 23, 23);
+}
+#statistics>p {
+    margin: auto;
+    width: fit-content;
+}
+.stop-scrolling {
+    height: 100vh;
+    overflow: hidden;
+}
+
+th, td, table {
+    border: 1px solid;
+    padding: 5%;
+    border-collapse: collapse;
+}
+table th.is-dark {
+    color:white;
+}
+
+div>p.citatDate {
+    font-size: x-small;
+    line-height: 1;
+}
+div>p.citatName {
+    font-size: small;
+    line-height: 1;
+}
+div.citat {
+    padding-bottom: 0.8em;
+}
+
+#buttonsDiv {
+    float: left;
+    position: sticky;
+    bottom: 3vh;
+    left: 3vh;
+    max-width: 80vw;
+}
+
+#buttonsDiv>button {
+    max-width: 100%;
+}
+
+
+#up-arrow.is-dark {
+    filter: invert(85%);
+}
+
+#up-arrow:not(.is-dark) {
+    filter: invert(35%);
+}

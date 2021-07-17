@@ -57,7 +57,7 @@ var rawCitater = [
     "15-08-2019 Thilde (fra S): Lad ham sove, ellers så dør han!",
     "15-08-2019 Elton: (lugter til en squishy) Ad den stinker... Den er giftig!",
     "16-08-2019 Benjamin: Halvejs igennem hoppet, huskede jeg at jeg kun havde 1 liv...",
-    "20-08-2019 Lili-Luna: Kan i ikke lige have sex et andet sted?",
+    "20-08-2019 Lily-Luna: Kan i ikke lige have sex et andet sted?",
     "26-08-2019 Alfred: Man skulle forfanden tro at du står i ledtog med Dansk Folkeparti.",
     "29-08-2019 Rune: Glæd dig til at jeg får flere liv end dig.",
     "+n Jakob: Nej, du må ikke skifte karakter, jeg eeelsker dig!",
@@ -343,5 +343,5 @@ var rawCitater = [
     "24-06-2021 Benjamin: Sex er en god anime.",
     "25-06-2021 Emil: Hun giver dig et slap, helt ligesom i de gamle dage",
     "25-06-2021 Aske: Benjamin, kan du lide at have sex med guld?",
-    "17-07 2021 Vitus: Det er standard strategien i rollespilsgruppen når man vil have folk til at gøre noget. Så spørger man dem hvem de er ude og lave",
+    "17-07-2021 Vitus: Det er standard strategien i rollespilsgruppen når man vil have folk til at gøre noget. Så spørger man dem hvem de er ude og lave",
 ]

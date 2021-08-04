@@ -343,5 +343,5 @@ var rawCitater = [
     "24-06-2021 Benjamin: Sex er en god anime.",
     "25-06-2021 Emil: Hun giver dig et slap, helt ligesom i de gamle dage",
     "25-06-2021 Aske: Benjamin, kan du lide at have sex med guld?",
-    "17-07-2021 Vitus: Det er standard strategien i rollespilsgruppen når man vil have folk til at gøre noget. Så spørger man dem hvem de er ude og lave",
+    "17-07-2021 Vitus: Det er standard strategien i rollespilsgruppen når man vil have folk til at gøre noget. Så spørger man dem hvem de er ude at lave",
 ]

@@ -344,7 +344,7 @@ var rawCitater = [
     "25-06-2021 Emil: Hun giver dig et slap, helt ligesom i de gamle dage",
     "25-06-2021 Aske: Benjamin, kan du lide at have sex med guld?",
     "17-07-2021 Vitus: Det er standard strategien i rollespilsgruppen når man vil have folk til at gøre noget. Så spørger man dem hvem de er ude at lave",
-    "12-08-2022 Marta: Hvem skal vi røre ved nu?",
+    "12-08-2021 Marta: Hvem skal vi røre ved nu?",
     "13-08-2021 Alfred: Skal vi ikke lege Tinder?",
     "13-08-2021 Aske: Kom, så skal vi flirte med nogle piger",
     "13-08-2021 Rune: Skal vi opsøge ham? [lader Airsoft gevær]",

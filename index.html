@@ -6,52 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Citater</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <script src="https://vitusverden.github.io/vitusresources/script.js"></script>
-    <!--Vitus's navbar & dark theme osv-->
-    <style>
-        #statistics {
-            width: 94vw;
-            /*height: 85vh;*/
-            position: sticky;
-            border-radius: 5vh;
-            background-color: lightgray;
-            padding: 3%;
-            top: 0vh;
-            left: 1%;
-        }
-
-        #statistics.is-dark {
-            background-color: black;
-        }
-
-        .stop-scrolling {
-            height: 100vh;
-            overflow: hidden;
-        }
-
-        th, td, table {
-            border: 1px solid;
-            padding: 5%;
-            border-collapse: collapse;
-        }
-        table th.is-dark {
-            color:white;
-        }
-    </style>
+    <script src="citater.js"></script>
+    <link rel="stylesheet" href="style.css">    
 </head>
 
 <body>
-    <button class="button" id="showStatistics" style="position: absolute;" onclick="showStatistics()">Citat
-        statistik</button>
     <div style="display: none;" id="statistics">
         <br>
-        <button class="button" id="closeStatistics" onclick="closeStatistics()"
-            style="position:absolute; top:5%; right:5%">Luk menu</button>
-        Der er <span id="forskelligecitater2"></span> forskellige citater
+        <button class="button" id="closeStatistics" onclick="closeStatistics()" style="float: right; position: sticky; top:10%">Luk menu</button>
+        <p>Der er <span id="forskelligecitater2"></span> forskellige citater</p>
+        
+        <p>Scoreboard (tæller ikke med hvis det er et citat med mere end 1 person i)</p>
         <br>
-        Scoreboard (tæller ikke med hvis det er et citat med mere end 1 person i)
-        <br>
-        <table id="scoreboard" style="min-width: 30%;">
+        <table id="scoreboard" >
             <tr>
                 <th>Person</th>
                 <th>Citater</th>
@@ -71,9 +40,17 @@
             <br>
             <br>
             <div id="citater">
-
             </div>
+        <br>
+    </div>
 
+
+    <div id="buttonsDiv">
+        <button class="button" id="showStatistics" onclick="showStatistics()">Citat statistik</button>
+        <button class="button" onclick="goToTop()">
+            <span class="icon"><img id="up-arrow" src="icons/arrow-up-bold.svg"></img></span>
+        </button>
+        <button class="button" id="changeOrderButton" onclick="toggleSort()">Skift til kronologisk rækkefølge</button>
     </div>
 
     <script src="main.js"></script>

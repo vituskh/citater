@@ -351,4 +351,14 @@ var rawCitater = [
     "13-08-2021 Aske: Viggo gokker, gummi klokker",
     "13-08-2021 Aske: Altså, min kæreste er vel teknisk set mit familiar",
     "13-08-2021 Aske: [bla bla bla] og så spiller benjamin Josefine, og så kan vi knippe!",
+    "13-08-2021 Vitus: Prøv at spørge Alfred, hvis nogen kan er det ham",
+    "+n Marcus: Ad, nej, han er en hippie",
+    "16-08-2021 Rune: Jeg kigger på asfalt, hvorfor ik' hvorfor ik', for det sidder på min pik",
+    "20-08-2021 Aske: ... og det der er Martas profilbillede",
+    "+n Emil: Nåh, jeg troede det var Mathilde kakaomælk",
+    "20-08-2021 Alfred: Altså hvor kommer hun fra? Fucking Supermand-land?"
+    "+n Vitus: Tjernobyl?",
+    "20-08-2021 Vitus: Gruppemobning er bedre, når der ikke er beviser",
+    "20-08-2021 Viggo: Du kan ikke bare side at skrive med andre piger, hvis du skal til Lolland i morgen!",
+    "Aske: Stop dig selv. Jeg sidder legit og skriver med dem fra Lolland lige nu.",
 ]

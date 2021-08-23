@@ -356,7 +356,7 @@ var rawCitater = [
     "16-08-2021 Rune: Jeg kigger på asfalt, hvorfor ik' hvorfor ik', for det sidder på min pik",
     "20-08-2021 Aske: ... og det der er Martas profilbillede",
     "+n Emil: Nåh, jeg troede det var Mathilde kakaomælk",
-    "20-08-2021 Alfred: Altså hvor kommer hun fra? Fucking Supermand-land?"
+    "20-08-2021 Alfred: Altså hvor kommer hun fra? Fucking Supermand-land?",
     "+n Vitus: Tjernobyl?",
     "20-08-2021 Vitus: Gruppemobning er bedre, når der ikke er beviser",
     "20-08-2021 Viggo: Du kan ikke bare side at skrive med andre piger, hvis du skal til Lolland i morgen!",

@@ -1,0 +1,9 @@
+{
+  "name": "citatlisten",
+  "version": "2.0.0",
+  "description": "Citatlisten",
+  "main": "main.js",
+  "scripts": {
+    "test": "node testing.js"
+  }
+}

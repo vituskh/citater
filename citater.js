@@ -361,4 +361,6 @@ var rawCitater = [
     "20-08-2021 Vitus: Gruppemobning er bedre, når der ikke er beviser",
     "20-08-2021 Viggo: Du kan ikke bare side at skrive med andre piger, hvis du skal til Lolland i morgen!",
     "+n Aske: Stop dig selv. Jeg sidder legit og skriver med dem fra Lolland lige nu.",
+    "24-08-2021: Rune: Among us asshole size comparison",
+    "23-08-2021 Rasmus: Jimmy, jeg har bestilt dine tæer fra Just Eat",
 ]

@@ -360,5 +360,5 @@ var rawCitater = [
     "+n Vitus: Tjernobyl?",
     "20-08-2021 Vitus: Gruppemobning er bedre, når der ikke er beviser",
     "20-08-2021 Viggo: Du kan ikke bare side at skrive med andre piger, hvis du skal til Lolland i morgen!",
-    "Aske: Stop dig selv. Jeg sidder legit og skriver med dem fra Lolland lige nu.",
+    "+n Aske: Stop dig selv. Jeg sidder legit og skriver med dem fra Lolland lige nu.",
 ]

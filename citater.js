@@ -363,4 +363,8 @@ var rawCitater = [
     "+n Aske: Stop dig selv. Jeg sidder legit og skriver med dem fra Lolland lige nu.",
     "24-08-2021: Rune: Among us asshole size comparison",
     "23-08-2021 Rasmus: Jimmy, jeg har bestilt dine tæer fra Just Eat",
+    "24-08-2021 Alfred: Benjamin, hvor meget har du tilbage",
+    "Benjamin: 60 kr",
+    "Alfred: Hvor meget mon Thilde er værd?",
+    "25-08-2021 Thorsten: Jeg har allerede smidt invandrere ud",
 ]

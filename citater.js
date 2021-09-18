@@ -367,6 +367,8 @@ var rawCitater = [
     "+n Benjamin: 60 kr",
     "+n Alfred: Hvor meget mon Thilde er værd?",
     "25-08-2021 Thorsten: Jeg har allerede smidt invandrere ud",
+    "03-09-2021: Yakup: Jeg knepper ofte mig selv!",
+    "+n Anne-Mette: Nej, der hjælper det at kunne læse dansk",
     "09-09-2021 Alfred: Jeg skal hente min strømpe",
     "+n Aske: Nej, du skal kneppe",
     "09-09-2021 Vitus: jeg må ikke joine pigeklubben",

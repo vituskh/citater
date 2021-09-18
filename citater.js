@@ -369,7 +369,11 @@ var rawCitater = [
     "25-08-2021 Thorsten: Jeg har allerede smidt invandrere ud",
     "09-09-2021 Alfred: Jeg skal hente min strømpe",
     "+n Aske: Nej, du skal kneppe",
+    "09-09-2021 Vitus: jeg må ikke joine pigeklubben",
     "16-09-2021 Rasmus: Jeg talte om at kneppe lillesøstre i røven",
     "16-09-2021 Viggo: jeg var igang med at slå på en pige",
     "18-09-2021 Benjamin: Hvor står der i LGBTQ at man skal være sort?!",
 ]
+
+
+module.exports = {citater:rawCitater}

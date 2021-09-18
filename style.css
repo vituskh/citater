@@ -63,7 +63,6 @@ div.citat {
 }
 
 #buttonsDiv {
-    float: left;
     position: sticky;
     bottom: 3vh;
     left: 3vh;

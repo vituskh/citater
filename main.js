@@ -3,64 +3,73 @@ var statistics = new Map()
 var sortedCitater = []
 var citater = []
 var currentSort = "added"
-console.time("Format")
-for (let i = 0; i < rawCitater.length; i++) {
-    const element = rawCitater[i];
 
-
-
-    //Split mit menneskelige format op til noget computer-læseligt. Det her splitter kun på det første ": ", og ignorerer resten.
-    var tempSplit = element.split(/: /)
-    var datoOgNavn = tempSplit.shift() //Den her skal vi splitte igen senere
-    const citat = tempSplit.join(": ")
-
-
-    var person, dato
-    var multiline = false
-    //Hvis citatet er et svar på et andet citat
-    if(datoOgNavn.includes("+n ")) {
-        multiline = true
-        person = datoOgNavn = datoOgNavn.replace("+n ", "")
-    } else {
-        tempSplit = datoOgNavn.split(/ /) //Lad os bare genbruge variablen og koden. Den her gang splitter vi på det første mellemrum.
-        dato = tempSplit.shift()
-        person = tempSplit.join(" ")
-    }
-
-
-    //Lad os lige teste citatet for at sikre, at det virker.
-        if( 
-            typeof citat === "undefined" ||
-            (typeof dato === "undefined" && multiline === true)||
-            typeof person === "undefined"
-        ) {
-            alert("Der er noget galt med citat " + (i +1) + " (tæller fra 1). \nFortæl Vitus om det.\nFor nu ignorerer vi det bare.\n\nMere info:\nElement: " + element + "\nTjek konsollen for trace.")
-            console.trace("Noget gik galt med et citat.")
-        }
-
-    //Tilføj det computervenlige format til en liste med objekter
-    if(multiline === false) {
-        //Det er en liste, for at man kan tilføje ekstra citater under.
-        citater.push({
-            citater: [
-                {
-                    citat: citat,
-                    person: person
-                }
-            ],
-            dato: dato
-        })
-
-
-    } else {
-        //Tilføj det her citat til det sidste i listen.
-        citater[citater.length-1].citater.push({
-            citat: citat,
-            person: person
-        })
-    }
+function parseCitater(raw) {
+    var citater = []
+    console.time("Format")
+    for (let i = 0; i < raw.length; i++) {
+        const element = raw[i];
     
+    
+    
+        //Split mit menneskelige format op til noget computer-læseligt. Det her splitter kun på det første ": ", og ignorerer resten.
+        var tempSplit = element.split(/: /)
+        var datoOgNavn = tempSplit.shift() //Den her skal vi splitte igen senere
+        const citat = tempSplit.join(": ")
+    
+    
+        var person, dato
+        var multiline = false
+        //Hvis citatet er et svar på et andet citat
+        if(datoOgNavn.includes("+n ")) {
+            multiline = true
+            person = datoOgNavn = datoOgNavn.replace("+n ", "")
+        } else {
+            tempSplit = datoOgNavn.split(/ /) //Lad os bare genbruge variablen og koden. Den her gang splitter vi på det første mellemrum.
+            dato = tempSplit.shift()
+            person = tempSplit.join(" ")
+        }
+    
+    
+        //Lad os lige teste citatet for at sikre, at det virker.
+            if( 
+                typeof citat === "undefined" ||
+                (typeof dato === "undefined" && multiline === true)||
+                typeof person === "undefined"
+            ) {
+                alert("Der er noget galt med citat " + i + " (tæller fra 0). \nFortæl Vitus om det.\nFor nu ignorerer vi det bare.\n\nMere info:\nElement: " + element + "\nTjek konsollen for trace.")
+                console.trace("Noget gik galt med et citat.")
+                throw "Fejl på citat " + i + " (index 0-based)"
+            }
+    
+        //Tilføj det computervenlige format til en liste med objekter
+        if(multiline === false) {
+            //Det er en liste, for at man kan tilføje ekstra citater under.
+            citater.push({
+                citater: [
+                    {
+                        citat: citat,
+                        person: person
+                    }
+                ],
+                dato: dato
+            })
+    
+    
+        } else {
+            //Tilføj det her citat til det sidste i listen.
+            citater[citater.length-1].citater.push({
+                citat: citat,
+                person: person
+            })
+        }
+        
+    }
+    console.timeEnd("Format")
+    return citater
 }
+
+citater = parseCitater(rawCitater)
 
 for (let i = 0; i < citater.length; i++) {
     const element = citater[i];
@@ -148,7 +157,7 @@ function returnElementFromCitat(element) {
 
     return el
 }
-console.timeEnd("Format")
+
 function showNormalOrder() { //I den rækkefølge, som de er tilføjet.
     console.time("normalOrder")
     var fragment = new DocumentFragment() //Performance grunde...
@@ -229,6 +238,8 @@ function toggleSort() {
         showNormalOrder()
     }
 }
+
+module.exports = {parseCitater:parseCitater}
 
 /*
 window.onload = function () {

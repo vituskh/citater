@@ -115,7 +115,33 @@ try {
     console.error("Failed test 4: " + error)
 }
 
+console.log("")
+try {
+    for (let i = 0; i < citater.length; i++) {
+        const element = citater[i];
+        for (let o = 0; o < element.citater.length; o++) {
+            const e = element.citater[o];
+            if(e.person[0].match(/[a-zæøå]/)) throw "Fejl på citat " + i + ", del " + o
+        }
+    }
+    console.log("Passed spelling & grammar 1")
+} catch (error) {
+    console.error("Failed spelling & grammar 1: " + error)
+}
+try {
+    for (let i = 0; i < citater.length; i++) {
+        const element = citater[i];
+        for (let o = 0; o < element.citater.length; o++) {
+            const e = element.citater[o];
+            if(e.citat[0].match(/[a-zæøå]/)) throw "Fejl på citat " + i + ", del " + o
+        }
+    }
+    console.log("Passed spelling & grammar 2")
+} catch (error) {
+    console.error("Failed spelling & grammar 2: " + error)
+}
 
+console.log("")
 
 if(hasErrors == false) {
     var totalTime = 0

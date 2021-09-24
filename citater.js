@@ -375,6 +375,13 @@ var rawCitater = [
     "16-09-2021 Rasmus: Jeg talte om at kneppe lillesøstre i røven",
     "16-09-2021 Viggo: Jeg var igang med at slå på en pige",
     "18-09-2021 Benjamin: Hvor står der i LGBTQ at man skal være sort?!",
+    "27-08-2021 Aske: Din fucking speedrunner-jyde!",
+    "27-08-2021 Rune: Det kan godt være, at du siger at du er 11, men mentalt er du altså 4.",
+    "??-??-2021 Tilfældig mand på gaden: Nå, har I været ude at snolde?",
+    "+n Nor: Nej, vi har været på stripklub",
+    "+n Aske: Ja, og din kæreste var involveret",
+    "20-09-2021 Emil: Flad kan også godt være fysisk",
+    "21-09-2021 Rasmus: Waow, flexer med at du har en mor",
 ]
 
 

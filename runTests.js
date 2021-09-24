@@ -1,3 +1,4 @@
+//Node.js, ingen requirements ud over ./citater.js.
 const rawCitater = require("./citater").citater
 const { performance } = require('perf_hooks')
 function parseCitater(raw) {

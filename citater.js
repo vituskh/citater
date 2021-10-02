@@ -382,6 +382,11 @@ var rawCitater = [
     "+n Aske: Ja, og din kæreste var involveret",
     "20-09-2021 Emil: Flad kan også godt være fysisk",
     "21-09-2021 Rasmus: Waow, flexer med at du har en mor",
+    "26-09-2021 Aske: Why is 2 boys having sex weirder than a boy and a girl having sex?",
+    "+n Random homobobisk russisk mand i cs: Because its cringe",
+    "27-09-2021 Louis (en fra teenager i familien): Hvis to mennesker har et crush på nogen, hvad gør man så?",
+    "+n Asger M: Man slår sten saks papir om dem",
+    "28-09-2021 Marcus: Ad tænder du på brød!?",
 ]
 
 

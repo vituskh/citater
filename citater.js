@@ -387,6 +387,10 @@ var rawCitater = [
     "27-09-2021 Louis (en fra teenager i familien): Hvis to mennesker har et crush på nogen, hvad gør man så?",
     "+n Asger M: Man slår sten saks papir om dem",
     "28-09-2021 Marcus: Ad tænder du på brød!?",
+    "04-09-2021 Thorsten: Marcus, du må ikke spilde oxygenen i dette rum",
+    "16-10-2021 Alfred: Skal du over til din mor i morgen?",
+    "+n Benjamin: Ja",
+    "+n Aske: Boner alert",
 ]
 
 

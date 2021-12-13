@@ -401,7 +401,7 @@ var rawCitater = [
     "04-11-2021 Rune: Vil du ind her? 200 kroner.",
     "+n Alfred: Det sagde hun også i går",
     "09-11-2021 Vitus: Spejlægget er et symbol",
-    "15-11-2011 Rasmus: [til en lille pige] Hej kvinde, vil du ned i min kælder?",
+    "15-11-2021 Rasmus: [til en lille pige] Hej kvinde, vil du ned i min kælder?",
     
 
 ]

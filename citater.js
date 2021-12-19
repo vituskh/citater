@@ -402,6 +402,13 @@ var rawCitater = [
     "+n Alfred: Det sagde hun også i går",
     "09-11-2021 Vitus: Spejlægget er et symbol",
     "15-11-2021 Rasmus: [til en lille pige] Hej kvinde, vil du ned i min kælder?",
+    "04-11-2021 Aske: Er min kæreste ikke teknisk set mit familiar?",
+    "06-12-2021 Rune: Min far er ude og nyde livet",
+    "+n Aske: er han ude og hore?",
+    "+n Rune: omvendt, han er ude og skyde!",
+    "13-12-2021 Alfred: Hun er fra Grækenland",
+    "+n Aske: Nej, er hun ikke fra et eller andet pis i Mellemøsten",
+    "13-12-2021 Vitus: det undre mig at der ikke er flere der bliver begravet levende",
     
 
 ]

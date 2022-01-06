@@ -404,12 +404,20 @@ var rawCitater = [
     "15-11-2021 Rasmus: [til en lille pige] Hej kvinde, vil du ned i min kælder?",
     "04-11-2021 Aske: Er min kæreste ikke teknisk set mit familiar?",
     "06-12-2021 Rune: Min far er ude og nyde livet",
-    "+n Aske: er han ude og hore?",
-    "+n Rune: omvendt, han er ude og skyde!",
+    "+n Aske: Er han ude og hore?",
+    "+n Rune: Omvendt, han er ude og skyde!",
     "13-12-2021 Alfred: Hun er fra Grækenland",
     "+n Aske: Nej, er hun ikke fra et eller andet pis i Mellemøsten",
-    "13-12-2021 Vitus: det undre mig at der ikke er flere der bliver begravet levende",
-    
+    "13-12-2021 Vitus: Det undrer mig, at der ikke er flere der bliver begravet levende",
+    "05-01-2022 Willi: Hvorfor får i ikke bare en kæreste og så knepper vi hende?",
+    "04-01-2022 Aske: Det her er udrejsecentret",
+    "+n Rune: Jeg kan ikke huske hvad det hed... Fucking Spangsberg",
+    "03-01-2021 Anne-Mette: Er du syg, Benjamin?",
+    "+n Benjamin: Ja, men jeg har lige taget to Ipren, såe",
+    "21-10-2021 Aske: Julius, se, jeg er 185, så det betyder at jeg simpelthen er bedre til livet",
+    "17-08-2021 Aske: Du er såå fucccking seeeej 🎵",
+    "+n Rune: Du lugter af pandekagedeeeeeeej",
+    "13-08-2021 Emil: Klumpen af bræk former sig og bliver mere og mere svampet",
 
 ]
 

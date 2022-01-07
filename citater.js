@@ -418,7 +418,8 @@ var rawCitater = [
     "17-08-2021 Aske: Du er såå fucccking seeeej 🎵",
     "+n Rune: Du lugter af pandekagedeeeeeeej",
     "13-08-2021 Emil: Klumpen af bræk former sig og bliver mere og mere svampet",
-
+    "27-09-2021 Aske: Fucking ludere altså!",
+    "+n Vitus: Ja, så skulle du måske lade være med at give dem ting, så de bliver ludere",
 ]
 
 

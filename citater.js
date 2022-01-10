@@ -420,6 +420,10 @@ var rawCitater = [
     "13-08-2021 Emil: Klumpen af bræk former sig og bliver mere og mere svampet",
     "27-09-2021 Aske: Fucking ludere altså!",
     "+n Vitus: Ja, så skulle du måske lade være med at give dem ting, så de bliver ludere",
+    "16-08-2021 Alfred: Jeg må spanke hvad jeg vil!",
+    "20-08-2021 Benjamin: Svampen har ikke lyst til at have sex!",
+    "+n Rune: Jov, for vidreudvikling!",
+    "23-08-2021 Rasmus: Kvinder er buttede",
 ]
 
 

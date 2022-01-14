@@ -425,6 +425,7 @@ var rawCitater = [
     "+n Rune: Jov, for vidreudvikling!",
     "23-08-2021 Rasmus: Kvinder er buttede",
     "09-11-2021 Rehan: Jeg er ikke racist, jeg kan bare ikke lide sorte mennesker",
+    "13-01-2021 Alfred: Vi kunne også give dig et halsbånd på, skatter?",
 ]
 
 

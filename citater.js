@@ -426,6 +426,13 @@ var rawCitater = [
     "23-08-2021 Rasmus: Kvinder er buttede",
     "09-11-2021 Rehan: Jeg er ikke racist, jeg kan bare ikke lide sorte mennesker",
     "13-01-2021 Alfred: Vi kunne også give dig et halsbånd på, skatter?",
+    "02-12-2021 Emil: Fabrik til Fortnite",
+    "12-01-2021 Lukas: White powder",
+    "+n Leo: White powder",
+    "+n Benjamin: White power",
+    "24-01-2022 Vitus: Skal du have med bæltet?",
+    "+n Benjamin: Nej, daddy, nej!",
+    "30-01-2022 Alfred: Jeg føler mig lidt som en pingvin lige nu…",
 ]
 
 

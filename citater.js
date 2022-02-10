@@ -435,6 +435,8 @@ var rawCitater = [
     "30-01-2022 Alfred: Jeg føler mig lidt som en pingvin lige nu…",
     "30-09-2021 Alfred: Bare fordi jeg ikke er gay, betyder det ikke, at jeg vil have tilfældige piger til at stille ting op i røven på mig",
     "13-01-2022 Vitus: Jeg vil gerne behandles som et objekt.",
+    "07-02-2022 Benjamin: Hvad skal vi søge på?",
+    "+n Aske: Porno!",
 ]
 
 

@@ -437,6 +437,13 @@ var rawCitater = [
     "13-01-2022 Vitus: Jeg vil gerne behandles som et objekt.",
     "07-02-2022 Benjamin: Hvad skal vi søge på?",
     "+n Aske: Porno!",
+    "26-02-2022 Benjamin: Jeg er den moderne Judas",
+    "05-03-2022 Benjamin: Fordi den er fed og den arbejder ikke!",
+    "+n Rune: Altså ligesom Yakup?",
+    "10-03-2022 Emil: Nu har Rune sin gun frem. Så ved vi, at det er torsdag!",
+    "10-03-2022 Vitus: I krig mod hvem? Os selv? Vi har lige taget tronen, det er ikke undtagelsestilstand, det er et kup!",
+    "+n Aske: Det er ikke et kup, det er en speciel militæroperation",
+    "10-03-2022 Aske: Men, Alfred, du kan jo iværksætte dit Holocaust nu!",
 ]
 
 

@@ -153,4 +153,6 @@ if(hasErrors == false) {
     }
     console.log("Average parse time: " + (totalTime/runs) + "ms")
     console.log("Over 1000 runs " + totalTime + "ms")
+} else {
+    process.exit(1)
 }

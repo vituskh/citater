@@ -444,6 +444,8 @@ var rawCitater = [
     "10-03-2022 Vitus: I krig mod hvem? Os selv? Vi har lige taget tronen, det er ikke undtagelsestilstand, det er et kup!",
     "+n Aske: Det er ikke et kup, det er en speciel militæroperation",
     "10-03-2022 Aske: Men, Alfred, du kan jo iværksætte dit Holocaust nu!",
+    "14-03-2022 Yakup: Katolik er ikke en religion, det er bare pay to win",
+    "14-03-2022 Thorsten: Du kigger som min datter, da jeg gav hende mælk første gang!",
 ]
 
 

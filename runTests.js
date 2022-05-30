@@ -119,6 +119,7 @@ try {
 console.log("")
 try {
     for (let i = 0; i < citater.length; i++) {
+        //Tjek navne stort forbogstav
         const element = citater[i];
         for (let o = 0; o < element.citater.length; o++) {
             const e = element.citater[o];
@@ -131,8 +132,9 @@ try {
 }
 try {
     for (let i = 0; i < citater.length; i++) {
+        //Tjek citat stort forbogstav
         const element = citater[i];
-        for (let o = 0; o < element.citater.length; o++) {
+        for (let o = 0; o < element.citater.length; o++) {  
             const e = element.citater[o];
             if(e.citat[0].match(/[a-zæøå]/)) throw "Fejl på citat " + i + ", del " + o
         }

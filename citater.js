@@ -446,6 +446,9 @@ var rawCitater = [
     "10-03-2022 Aske: Men, Alfred, du kan jo iværksætte dit Holocaust nu!",
     "14-03-2022 Yakup: Katolik er ikke en religion, det er bare pay to win",
     "14-03-2022 Thorsten: Du kigger som min datter, da jeg gav hende mælk første gang!",
+    "05-04-2022 Aske: Jeg kan godt lide at slå din sædsæk!",
+    "20-04-2022 Rune: [Mens vi snakker om uddannelser] Hvor skal henriette hen? Hun skal på HHX! <br> Hvor skal abdi hen? Ud af landet!",
+    "28-4-2022 Emil: Så, hvis man skal minimaxe sine børn…",
 ]
 
 

@@ -445,7 +445,11 @@ var rawCitater = [
     "14-03-2022 Thorsten: Du kigger som min datter, da jeg gav hende mælk første gang!",
     "05-04-2022 Aske: Jeg kan godt lide at slå din sædsæk!",
     "20-04-2022 Rune: [Mens vi snakker om uddannelser] Hvor skal henriette hen? Hun skal på HHX! <br> Hvor skal abdi hen? Ud af landet!",
-    "28-4-2022 Emil: Så, hvis man skal minmaxe sine børn…",
+    "28-04-2022 Emil: Så, hvis man skal minmaxe sine børn…",
+    "17-03-2022 Per: Jeg er ikke racist, jeg kan bare ikke lide negere",
+    "18-03-2022 Anne-Mette: Drengen har en lille bitte pølse, og moren kører bare pølser gennem systemet!",
+    "01-06-2022 Thorsten: Jeg kalder det arbejdsmateriale, du kalder det ammunition",
+    "03-06-2022 Thorsten: ... Og det hedder ikke 'din fucking luder', det hedder 'din praktiserende sexarbejder' !",
 ]
 
 

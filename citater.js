@@ -450,6 +450,7 @@ var rawCitater = [
     "18-03-2022 Anne-Mette: Drengen har en lille bitte pølse, og moren kører bare pølser gennem systemet!",
     "01-06-2022 Thorsten: Jeg kalder det arbejdsmateriale, du kalder det ammunition",
     "03-06-2022 Thorsten: ... Og det hedder ikke 'din fucking luder', det hedder 'din praktiserende sexarbejder' !",
+    "28-07-2022 Leo: Jeg har lige opdaget jeg har haft en gaffel i mit hår i en halv time"
 ]
 
 

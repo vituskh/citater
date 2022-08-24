@@ -450,7 +450,21 @@ var rawCitater = [
     "18-03-2022 Anne-Mette: Drengen har en lille bitte pølse, og moren kører bare pølser gennem systemet!",
     "01-06-2022 Thorsten: Jeg kalder det arbejdsmateriale, du kalder det ammunition",
     "03-06-2022 Thorsten: ... Og det hedder ikke 'din fucking luder', det hedder 'din praktiserende sexarbejder' !",
-    "28-07-2022 Leo: Jeg har lige opdaget jeg har haft en gaffel i mit hår i en halv time"
+    "28-07-2022 Leo: Jeg har lige opdaget jeg har haft en gaffel i mit hår i en halv time",
+    "15-08-2022 Benjamin: Jeg ligner et chemo barn hvis make a wish ønske var at møde Matt mercer",
+    "18-08-2022 Leo: Når min dør i counterstrike så bliver man lidt sur, og jeg er normalt ikke typen der går ind for vold. Men jeg kom sgu til at kaste min kat ud af vinduet",
+    "12-08-2022 Aske: Han har mit armhår!",
+    "22-08-2022 Leo: Hvis kunden er sur så giver du dem en cola, og hvis de så bliver mere sure fordi de har sukkersyge så giver du dem to!",
+    "16-06-2022 Vigga: Hvad er man, hvis man ikke er dreng eller pige? Kat?",
+    "26-02-2023 Alfred: Struktureret kvindemenneske-håndtering",
+    "07-02-3022 Milo: [Klassen taler om at se en film om LGBTQ+] Hvorfor skal vi se den? Det er ligesom, man må gå ud, hvis vi ser en gyserfilm!",
+    "15-03-2022 Thorsten: Vi bliver bare her og får vores penge!",
+    "27-01-2022 Benjamin: Vi råber af hinanden, løber i problemer og jeg bliver nødt til at ofre en kropsdel",
+    "12-01-2021 Rune: Du sagde ikke, at den havde et våben!",
+    "+n Benjamin: Den er et våben!",
+    "23-08-2021 Vitus: Nej nej, nu stopper vi, han får svært ved at trække vejret",
+    "+n Alfred: Er det et problem?",
+    "27-09-2021 Yakup: Man tager hende og løfter hende op, og så smider man hende",
 ]
 
 

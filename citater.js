@@ -465,6 +465,11 @@ var rawCitater = [
     "23-08-2021 Vitus: Nej nej, nu stopper vi, han får svært ved at trække vejret",
     "+n Alfred: Er det et problem?",
     "27-09-2021 Yakup: Man tager hende og løfter hende op, og så smider man hende",
+    "10-10-2021 Alfred: Jeg sværger ved min forhåbentligt levende mor og min forhåbentligt afdøde kæreste",
+    "21-10-2021 Aske: Julius, hvis jeg havde været en jysk pige, havde jeg gået hen til dig og gennemsnavet dig",
+    "06-06-2022 Per: ... Og så er der jo nogle, som har fået kappet pikken af eller sat én på. ",
+    "25-07-2022 Aske: Så du er slet ikke igennem den daglige smerte at blive fyret??",
+    "25-08-2022 Alfred: Du kan da ikke mene at man skal slå et Will power check for at slå sin forlovede!",
 ]
 
 

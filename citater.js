@@ -470,6 +470,8 @@ var rawCitater = [
     "06-06-2022 Per: ... Og så er der jo nogle, som har fået kappet pikken af eller sat én på. ",
     "25-07-2022 Aske: Så du er slet ikke igennem den daglige smerte at blive fyret??",
     "25-08-2022 Alfred: Du kan da ikke mene at man skal slå et Will power check for at slå sin forlovede!",
+    "18-06-2021 Chanel: Hvorfor må Asger Munk bare se YouTube i timen?",
+    "+n Yakup: Han er fra humleby, ti stille!",
 ]
 
 

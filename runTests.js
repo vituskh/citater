@@ -69,10 +69,10 @@ var hasErrors = false
 //Tests
 try {
     parseCitater(rawCitater)
-    console.log("Passed test 1")
+    console.log("Passed test 1 (parse)")
 } catch (error) {
     hasErrors = true
-    console.error("Failed test 1: " + error)
+    console.error("Failed test 1 (parse): " + error)
 }
 var citater = parseCitater(rawCitater).citater
 try {
@@ -83,11 +83,11 @@ try {
             if(String(e.person) == "") throw "Fejl på citat " + i + ", del " + o
         }
     }
-    console.log("Passed test 2")
+    console.log("Passed test 2 (person)")
 
 } catch (error) {
     hasErrors = true
-    console.error("Failed test 2: " + error)
+    console.error("Failed test 2 (person): " + error)
 }
 var citater = parseCitater(rawCitater).citater
 try {
@@ -96,11 +96,11 @@ try {
         
         if(element.dato.match(/[^0-9\-\?]+/) != null) throw "Fejl på citat " + i
     }
-    console.log("Passed test 3")
+    console.log("Passed test 3 (date)")
 
 } catch (error) {
     hasErrors = true
-    console.error("Failed test 3: " + error)
+    console.error("Failed test 3 (date): " + error)
 }
 try {
     for (let i = 0; i < citater.length; i++) {
@@ -110,10 +110,23 @@ try {
             if(e.person.match(/:/)) throw "Fejl på citat " + i + ", del " + o
         }
     }
-    console.log("Passed test 4")
+    console.log("Passed test 4 (person)")
 } catch (error) {
     hasErrors = true
-    console.error("Failed test 4: " + error)
+    console.error("Failed test 4 (person): " + error)
+}
+
+try {
+    for (let i = 0; i < citater.length; i++) {
+        const element = citater[i];
+        let index = citater.findIndex(e => e.citater[0].person + e.citater[0].citat == element.citater[0].person + element.citater[0].citat) 
+        if(index != i) throw "Fejl på citat " + i
+    }
+    console.log("Passed test 5 (duplicates)")
+
+} catch {
+    hasErrors = true
+    console.error("Failed test 5 (duplicates): " + error)
 }
 
 console.log("")
@@ -126,9 +139,9 @@ try {
             if(e.person[0].match(/[a-zæøå]/)) throw "Fejl på citat " + i + ", del " + o
         }
     }
-    console.log("Passed spelling & grammar 1")
+    console.log("Passed spelling & grammar 1 (capitalize name)")
 } catch (error) {
-    console.error("Failed spelling & grammar 1: " + error)
+    console.error("Failed spelling & grammar 1 (capitalize name): " + error)
 }
 try {
     for (let i = 0; i < citater.length; i++) {
@@ -139,10 +152,11 @@ try {
             if(e.citat[0].match(/[a-zæøå]/)) throw "Fejl på citat " + i + ", del " + o
         }
     }
-    console.log("Passed spelling & grammar 2")
+    console.log("Passed spelling & grammar 2 (capitalize quote)")
 } catch (error) {
-    console.error("Failed spelling & grammar 2: " + error)
+    console.error("Failed spelling & grammar 2 (capitalize quote): " + error)
 }
+
 
 console.log("")
 

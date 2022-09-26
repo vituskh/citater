@@ -472,6 +472,9 @@ var rawCitater = [
     "25-08-2022 Alfred: Du kan da ikke mene at man skal slå et Will power check for at slå sin forlovede!",
     "18-06-2021 Chanel: Hvorfor må Asger Munk bare se YouTube i timen?",
     "+n Yakup: Han er fra humleby, ti stille!",
+    "16-09-2022 Aske: PRINTERKÆLLING!!!",
+    "22-09-2022 Vitus: Jeg vidste ikke, jeg havde en hæmoride!",
+    "08-09-2022 Leo: Nej, vi venter ikke! Jeg skal have noget vodka.",
 ]
 
 

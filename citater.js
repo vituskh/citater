@@ -475,6 +475,7 @@ var rawCitater = [
     "16-09-2022 Aske: PRINTERKÆLLING!!!",
     "22-09-2022 Vitus: Jeg vidste ikke, jeg havde en hæmoride!",
     "08-09-2022 Leo: Nej, vi venter ikke! Jeg skal have noget vodka.",
+    "21-09-2022 Anne-Mette: Hvad med jer piger, er der nogle som kan relatere til bare at blive sprøjtet på?"
 ]
 
 

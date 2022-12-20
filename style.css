@@ -1,83 +1,127 @@
-
-
-
-strong {
-    color:inherit; /*Bulma er wierd, de sætter farven på strong tags??*/    
-}
 p {
-    font-family: Garamond;
-    font-size: large
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 0.9rem;
+  margin: 0.5em 0;
 }
-
 
 #statistics {
-    width: 94vw;
-    /*height: 85vh;*/
-    position: sticky;
-    border-radius: 5vh;
-    background-color: lightgray;
-    padding: 3%;
-    top: 0vh;
-    text-align: center;
-    margin: auto;
+  width: 94vw;
+  /*height: 85vh;*/
+  position: sticky;
+  border-radius: 5vh;
+  background-color: lightgray;
+  padding: 3%;
+  top: 0vh;
+  text-align: center;
+  margin: auto;
 }
 #scoreboard {
-    margin: auto;
-    max-width: 90%;
+  margin: auto;
+  max-width: 90%;
 }
-#scoreboard>tbody>tr>th, #scoreboard>tbody>tr>td {
-    min-width: 5em;
+#scoreboard > tbody > tr > th,
+#scoreboard > tbody > tr > td {
+  min-width: 5em;
 }
 
-#statistics.is-dark {
-    background-color: rgb(23, 23, 23);
+#statistics {
+  background-color: var(--navColor);
 }
-#statistics>p {
-    margin: auto;
-    width: fit-content;
+#statistics > p {
+  margin: auto;
+  width: fit-content;
 }
 .stop-scrolling {
-    height: 100vh;
-    overflow: hidden;
+  height: 100vh;
+  overflow: hidden;
 }
 
-th, td, table {
-    border: 1px solid;
-    padding: 5%;
-    border-collapse: collapse;
+th,
+td,
+table {
+  border: 1px solid;
+  padding: 5%;
+  border-collapse: collapse;
 }
-table th.is-dark {
-    color:white;
+table th {
+  color: var(--textColor);
 }
 
-div>p.citatDate {
-    font-size: x-small;
-    line-height: 1;
+div > p.citatDate {
+  font-size: x-small;
+  line-height: 1;
 }
-div>p.citatName {
-    font-size: small;
-    line-height: 1;
+div > p.citatName {
+  font-size: small;
+  line-height: 1;
 }
 div.citat {
-    padding-bottom: 0.8em;
+  padding-bottom: 0.8em;
 }
 
 #buttonsDiv {
-    position: sticky;
-    bottom: 3vh;
-    left: 3vh;
-    max-width: 80vw;
+  position: sticky;
+  bottom: 3vh;
+  left: 3vh;
+  max-width: 80vw;
 }
 
-#buttonsDiv>button {
-    max-width: 100%;
+#buttonsDiv > button {
+  max-width: 100%;
 }
-
 
 #up-arrow.is-dark {
-    filter: invert(85%);
+  filter: invert(85%);
 }
 
 #up-arrow:not(.is-dark) {
-    filter: invert(35%);
+  filter: invert(35%);
+}
+
+#buttonsDiv {
+  display: flex;
+  align-items: center;
+}
+
+#buttonsDiv > button {
+  margin: 0 3px;
+}
+
+button {
+  padding: 0.5rem;
+  height: calc(1rem + 1.5em);
+  background-color: var(--backgroundColor);
+  border-radius: 5px;
+  box-shadow: none;
+  border: 1px solid #dbdbdb;
+}
+button:hover {
+  border: 1px solid #b5b5b5;
+}
+button:active {
+  border: 1px solid #b5b5b5;
+  background-color: #f2f2f2;
+}
+button > span,
+button > span > img {
+  height: 100%;
+  width: auto;
+}
+
+#text {
+  display: flex;
+  justify-content: center;
+  padding: 0 10% 1rem 10%;
+  flex-wrap: wrap;
+  text-align: center;
+}
+#citater {
+  max-width: 80rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
 }

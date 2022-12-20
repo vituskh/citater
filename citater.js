@@ -480,6 +480,12 @@ var rawCitater = [
   "+n Leo: Fordi han var SUIIIIII",
   "16-11-2022 Benjamin: Jeg vil gerne klæde mig ud som Unabomberen og sende en pipe bomb til skolen",
   "+n Anne-Mette: Ja, jeg kan godt høre, at du har mange gode ideer, men nu skal I tale om projektugen",
+  "01-12-2022 Per: [klassen har lige sagt, at alle ikke har cykler, og at nogle ikke vil gå/cykle til valbyparken] Nogle gange tænker jeg, at mennesker har fortjent tredje verdenskrig",
+  "05-12-2022 Anne-Mette: Han er sadist, og hun er masokist - eller det er hun måske ikke helt rigtigt, men hun finder sig i det.",
+  "12-10-2022 Alfred: De har en pandekagemaskine i et hobithus!",
+  "+n Vitus: Det har Rasmus Klump også",
+  "+n Alfred: Nej, han har en mor",
+  "02-06-2022 Alfred: Racekrig er noget af det bedste",
 ];
 
 module.exports = { citater: rawCitater };

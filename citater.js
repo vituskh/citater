@@ -491,6 +491,9 @@ var rawCitater = [
 	"+n Finn Lund: På et tidspunkt fandt jeg ud af at det var sjovere at være rig.",
 	"23-01-2023 Aske: Det er meget sexet men du ligner også lidt en voldtægtsmand",
 	"31-01-2024 Irfaan: Jeg hader bøsser, lebber, homoer og trans! Og pik! Det kan jeg SLET ikke lide!",
+	"12-01-2023 Emil: Mere eller mindre alle børnene på klubben er indvandre nu",
+	"+n Aske: Ja, det er også uheldigt",
+	"04-01-2023 Susanne (Vitus' mor): Det et faktisk en stressreaktion, fordi den tror den skal dø. Men det er en meget pæn stressreaktion, så derfor skal man ikke vande dem for meget.",
 ];
 
 module.exports = { citater: rawCitater };

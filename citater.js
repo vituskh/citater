@@ -494,6 +494,11 @@ var rawCitater = [
 	"12-01-2023 Emil: Mere eller mindre alle børnene på klubben er indvandre nu",
 	"+n Aske: Ja, det er også uheldigt",
 	"04-01-2023 Susanne (Vitus' mor): Det et faktisk en stressreaktion, fordi den tror den skal dø. Men det er en meget pæn stressreaktion, så derfor skal man ikke vande dem for meget.",
+	"23-02-2023 Emil: Jimmy... Tag nu noget tøj på.",
+	"22-03-2023 Aske: Fuck hvor smart! Nu kan man se, hvor meget fortune, man har med sin hoe!",
+	"+n Alfred: Det er det, man kalder en graviditetstest",
+	"14-04-2023 Per: Nåh, hvor er vores russer henne? Eller ukrainer... Det var ikke med vilje, jeg kan godt lave sjov med sorte, indvandrere og det der, men ikke den slags.",
+	"04-05-2023 William: Må jeg prøve at seduce det der barn?",
 ];
 
 module.exports = { citater: rawCitater };

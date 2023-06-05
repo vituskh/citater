@@ -499,6 +499,9 @@ var rawCitater = [
 	"+n Alfred: Det er det, man kalder en graviditetstest",
 	"14-04-2023 Per: Nåh, hvor er vores russer henne? Eller ukrainer... Det var ikke med vilje, jeg kan godt lave sjov med sorte, indvandrere og det der, men ikke den slags.",
 	"04-05-2023 William: Må jeg prøve at seduce det der barn?",
+	"25-09-2022 Alfred: Vi oplevede kun lidt racisme - der er ikke nok",
+	"26-04-2022 Yakup: Du har en Playstation 5, det er bedre end en far. Rehan har ingen af delene",
+	"04-01-2022 Aske: Jeg er kommunist med liberale løsninger!",
 ];
 
 module.exports = { citater: rawCitater };

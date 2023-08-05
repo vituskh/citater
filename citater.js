@@ -502,6 +502,18 @@ var rawCitater = [
 	"25-09-2022 Alfred: Vi oplevede kun lidt racisme - der er ikke nok",
 	"26-04-2022 Yakup: Du har en Playstation 5, det er bedre end en far. Rehan har ingen af delene",
 	"04-01-2022 Aske: Jeg er kommunist med liberale løsninger!",
+	"20-09-2022 Alfred: Du skal tænke på, at jeg ikke har noget sentimentalt forhold til mine koner",
+	"28-04-2023 Alfred: Prøv at høre, jeg var skabt til at sprede børn ud over det hele. Fange mammutter og sprede babyer!",
+	"04-05-2023 Alfred: ... Men så gad hun mig ikke længere, da jeg begyndte at slå vores børn ihjel.",
+	"12-05-2023 Anne-Mette: Du skal ikke begynde på din synopsis før din tekst er fuldkommen gennemkneppet",
+	"24-05-2023 Alberte: Fnat prøvede at stjæle min dame",
+	"+n Rune: Det gjorde Fnat ikke, Fnat er aseksuel",
+	"27-06-2023 Alfred: Du kastede den bare på min hårde stive kolde nipple",
+	"27-06-2023 Lærke: Janteloven lyder som noget Inger Støjberg siger mens hun torturere en pakistaner",
+	"27-06-2023 Lærke: Giv mig din kropsvarme",
+	"01-07-2023 Alfred: Du ved godt at du ikke behøver bolle mig for at få lov til at spise is ik?",
+	"06-07-2023 Alfred: En rigtig mand elsker sin dame hver dag i måneden, men en rigtig mand holder dog bisserne fra alt mellem hendes ben mens hun har menstraution",
+	"05-08-2023 Alberte: Du lyder som en dør, men det er fucking cute!",
 ];
 
 module.exports = { citater: rawCitater };
